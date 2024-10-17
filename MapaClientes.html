@@ -1,0 +1,4797 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2175379e745be408097666445cf68449 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2175379e745be408097666445cf68449" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2175379e745be408097666445cf68449 = L.map(
+                "map_2175379e745be408097666445cf68449",
+                {
+                    center: [-14.235, -51.9253],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_316f33e3bb7e596b0019ed856e04150c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_316f33e3bb7e596b0019ed856e04150c.addTo(map_2175379e745be408097666445cf68449);
+        
+    
+            var marker_04427942c0afdb702adeec3ccfa75c25 = L.marker(
+                [-23.56096405, -46.72770807289966],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d3445e1dbbe6e6d4a73326d2bfd78b5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e6fb469af910fc1889f9b891853bd98 = $(`<div id="html_2e6fb469af910fc1889f9b891853bd98" style="width: 100.0%; height: 100.0%;">Cliente: nan<br>Endereço: LOGRADOURO, CIDADE, ESTADO</div>`)[0];
+                popup_d3445e1dbbe6e6d4a73326d2bfd78b5b.setContent(html_2e6fb469af910fc1889f9b891853bd98);
+            
+        
+
+        marker_04427942c0afdb702adeec3ccfa75c25.bindPopup(popup_d3445e1dbbe6e6d4a73326d2bfd78b5b)
+        ;
+
+        
+    
+    
+            var marker_d1e2cafd01fcf7d64c07dabe39193ffe = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_314cbc53ed68d6e9cd7f3abc53dc78c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7eb6b7ef330ee874fd72d52621bd7b2 = $(`<div id="html_c7eb6b7ef330ee874fd72d52621bd7b2" style="width: 100.0%; height: 100.0%;">Cliente: CALCADOS JEQUIE LTDA<br>Endereço: ALVES PEREIRA 26, JEQUIE, BA</div>`)[0];
+                popup_314cbc53ed68d6e9cd7f3abc53dc78c3.setContent(html_c7eb6b7ef330ee874fd72d52621bd7b2);
+            
+        
+
+        marker_d1e2cafd01fcf7d64c07dabe39193ffe.bindPopup(popup_314cbc53ed68d6e9cd7f3abc53dc78c3)
+        ;
+
+        
+    
+    
+            var marker_46f601e6d8de91fd73a3a0ae67bf2334 = L.marker(
+                [-14.7972635, -39.0338304],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_4c5ca51e79f9427c13821af02e5a71f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f2daba940e9bffb52f5f298ad7938ad = $(`<div id="html_3f2daba940e9bffb52f5f298ad7938ad" style="width: 100.0%; height: 100.0%;">Cliente: TOPADA CALCADOS EIRELI - EPP<br>Endereço: SANTOS DUMONT 67, ILHEUS, BA</div>`)[0];
+                popup_4c5ca51e79f9427c13821af02e5a71f2.setContent(html_3f2daba940e9bffb52f5f298ad7938ad);
+            
+        
+
+        marker_46f601e6d8de91fd73a3a0ae67bf2334.bindPopup(popup_4c5ca51e79f9427c13821af02e5a71f2)
+        ;
+
+        
+    
+    
+            var marker_c5002a245aed86d58e4b248a389bd492 = L.marker(
+                [-16.4257989, -39.089074],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5a1f13d127a6b00cf309ba2fc1bb143d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_971e6d9eeeff12ec7434100a4b4fd020 = $(`<div id="html_971e6d9eeeff12ec7434100a4b4fd020" style="width: 100.0%; height: 100.0%;">Cliente: ALFA CALCADOS E CONFECCOES LTDA ME<br>Endereço: GETULIO VARGAS 245, PORTO SEGURO, BA</div>`)[0];
+                popup_5a1f13d127a6b00cf309ba2fc1bb143d.setContent(html_971e6d9eeeff12ec7434100a4b4fd020);
+            
+        
+
+        marker_c5002a245aed86d58e4b248a389bd492.bindPopup(popup_5a1f13d127a6b00cf309ba2fc1bb143d)
+        ;
+
+        
+    
+    
+            var marker_7ea36b361bbccf2ccef98696c65ae747 = L.marker(
+                [-15.8584313, -38.8785638],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_a6b7b9ea8c52313792421623332d35a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_990cc3e9861a165029ee83d4136288a9 = $(`<div id="html_990cc3e9861a165029ee83d4136288a9" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIO  CONF E TECIDOS PIO BARROS LTDA<br>Endereço: VINTE E TRES DE MAIO 300, BELMONTE, BA</div>`)[0];
+                popup_a6b7b9ea8c52313792421623332d35a3.setContent(html_990cc3e9861a165029ee83d4136288a9);
+            
+        
+
+        marker_7ea36b361bbccf2ccef98696c65ae747.bindPopup(popup_a6b7b9ea8c52313792421623332d35a3)
+        ;
+
+        
+    
+    
+            var marker_0640ad12cc20453bbcedf86d797c4b9c = L.marker(
+                [-13.0297878, -39.6028323],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_c641f18858e1c8ae4468142f76be341b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ed3a2ea6f0bc4cfbc76251a282dc991 = $(`<div id="html_4ed3a2ea6f0bc4cfbc76251a282dc991" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIAL DE CALCADOS BOA TERRA LTDA<br>Endereço: TIRADENTES 327, AMARGOSA, BA</div>`)[0];
+                popup_c641f18858e1c8ae4468142f76be341b.setContent(html_4ed3a2ea6f0bc4cfbc76251a282dc991);
+            
+        
+
+        marker_0640ad12cc20453bbcedf86d797c4b9c.bindPopup(popup_c641f18858e1c8ae4468142f76be341b)
+        ;
+
+        
+    
+    
+            var marker_4ca3e3f429f8c253eaa797595028823d = L.marker(
+                [-14.752754, -40.089417],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7a2de41ea5ec9498d316b3a049411181 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4028f6e62b73064bb1ecfc69f9f37ea0 = $(`<div id="html_4028f6e62b73064bb1ecfc69f9f37ea0" style="width: 100.0%; height: 100.0%;">Cliente: NOELICE MARIA CABRAL GOMES & CIA LTDA - ME<br>Endereço: RODRIGO TEIXEIRA 70, IGUAI, BA</div>`)[0];
+                popup_7a2de41ea5ec9498d316b3a049411181.setContent(html_4028f6e62b73064bb1ecfc69f9f37ea0);
+            
+        
+
+        marker_4ca3e3f429f8c253eaa797595028823d.bindPopup(popup_7a2de41ea5ec9498d316b3a049411181)
+        ;
+
+        
+    
+    
+            var marker_542f26f54fbc5b364d1b5b4d3ac81ce2 = L.marker(
+                [-16.373568, -39.5865579],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_e89873f87d9be09604e5a60871008aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc1019c34d80a1cf9d3e2267bd3e47c0 = $(`<div id="html_fc1019c34d80a1cf9d3e2267bd3e47c0" style="width: 100.0%; height: 100.0%;">Cliente: NEW JERSEY CALCADOS LTDA - ME<br>Endereço: CINCO DE NOVEMBRO 12, EUNAPOLIS, BA</div>`)[0];
+                popup_e89873f87d9be09604e5a60871008aa7.setContent(html_fc1019c34d80a1cf9d3e2267bd3e47c0);
+            
+        
+
+        marker_542f26f54fbc5b364d1b5b4d3ac81ce2.bindPopup(popup_e89873f87d9be09604e5a60871008aa7)
+        ;
+
+        
+    
+    
+            var marker_0055a66482fd549b8dd5d206acc1bc83 = L.marker(
+                [-16.3557667, -39.5848758],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0b95501eebaba22a2bd1edf298fe5c9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03c20566d0b91e4738778e67abe68fb1 = $(`<div id="html_03c20566d0b91e4738778e67abe68fb1" style="width: 100.0%; height: 100.0%;">Cliente: JOAL MODAS LTDA<br>Endereço: DUQUE DE CAXIAS 644, EUNAPOLIS, BA</div>`)[0];
+                popup_0b95501eebaba22a2bd1edf298fe5c9f.setContent(html_03c20566d0b91e4738778e67abe68fb1);
+            
+        
+
+        marker_0055a66482fd549b8dd5d206acc1bc83.bindPopup(popup_0b95501eebaba22a2bd1edf298fe5c9f)
+        ;
+
+        
+    
+    
+            var marker_d4a3398ecd74f0e8d76860395ce39ff0 = L.marker(
+                [-14.792599, -39.0453843],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d6c4d8c18e4cd5a8fd35eb56c67fce51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68d3a80cb85e54e463cf0252822c2815 = $(`<div id="html_68d3a80cb85e54e463cf0252822c2815" style="width: 100.0%; height: 100.0%;">Cliente: DENEPAULA MODAS LTDA<br>Endereço: MARQUES DE PANARAGUA 169, ILHEUS, BA</div>`)[0];
+                popup_d6c4d8c18e4cd5a8fd35eb56c67fce51.setContent(html_68d3a80cb85e54e463cf0252822c2815);
+            
+        
+
+        marker_d4a3398ecd74f0e8d76860395ce39ff0.bindPopup(popup_d6c4d8c18e4cd5a8fd35eb56c67fce51)
+        ;
+
+        
+    
+    
+            var marker_682ad2b8d81baaeea6093f30e218b54a = L.marker(
+                [-15.1158465, -40.4435189],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2738275e325a858a74a95ad6e4426bfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4db873bfc6e0f589d32bef24cb15f46d = $(`<div id="html_4db873bfc6e0f589d32bef24cb15f46d" style="width: 100.0%; height: 100.0%;">Cliente: MAGAZINE ORION LTDA<br>Endereço: RUI BARBOSA 03, ITAMBE, BA</div>`)[0];
+                popup_2738275e325a858a74a95ad6e4426bfa.setContent(html_4db873bfc6e0f589d32bef24cb15f46d);
+            
+        
+
+        marker_682ad2b8d81baaeea6093f30e218b54a.bindPopup(popup_2738275e325a858a74a95ad6e4426bfa)
+        ;
+
+        
+    
+    
+            var marker_ab478d8c36a4c3e3f11ea00303bd4c07 = L.marker(
+                [-14.223066, -42.779943],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_da92cf36a3b3fbf693cb7ed2b3070f14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_857c8b01819ba43e56bdba2d71b57c16 = $(`<div id="html_857c8b01819ba43e56bdba2d71b57c16" style="width: 100.0%; height: 100.0%;">Cliente: JGV CALCADOS LTDA<br>Endereço: DR FRANCISCO JOSE FERNANDES 119 A, GUANAMBI, BA</div>`)[0];
+                popup_da92cf36a3b3fbf693cb7ed2b3070f14.setContent(html_857c8b01819ba43e56bdba2d71b57c16);
+            
+        
+
+        marker_ab478d8c36a4c3e3f11ea00303bd4c07.bindPopup(popup_da92cf36a3b3fbf693cb7ed2b3070f14)
+        ;
+
+        
+    
+    
+            var marker_75abfc7e6a5c6f126e8fb2396b17a5d4 = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_f7453d52278049d19f80999037bb65e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b627e5c36a0886ce86b26ff468293bc7 = $(`<div id="html_b627e5c36a0886ce86b26ff468293bc7" style="width: 100.0%; height: 100.0%;">Cliente: FALCAO CALC LTDA<br>Endereço: LAURO DE FREITAS 19, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_f7453d52278049d19f80999037bb65e2.setContent(html_b627e5c36a0886ce86b26ff468293bc7);
+            
+        
+
+        marker_75abfc7e6a5c6f126e8fb2396b17a5d4.bindPopup(popup_f7453d52278049d19f80999037bb65e2)
+        ;
+
+        
+    
+    
+            var marker_8ca74dce2ab606f041ba76708f735e87 = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_638025e071cf7c9f3c083fccbd3c07df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b8b98a3da76b345598bb0aa2a006377 = $(`<div id="html_9b8b98a3da76b345598bb0aa2a006377" style="width: 100.0%; height: 100.0%;">Cliente: FALCAO CALC LTDA<br>Endereço: LAURO DE FREITAS 19, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_638025e071cf7c9f3c083fccbd3c07df.setContent(html_9b8b98a3da76b345598bb0aa2a006377);
+            
+        
+
+        marker_8ca74dce2ab606f041ba76708f735e87.bindPopup(popup_638025e071cf7c9f3c083fccbd3c07df)
+        ;
+
+        
+    
+    
+            var marker_a41e8c217154f6e8ad72b33942ea9a7d = L.marker(
+                [-14.2025099, -41.6701307],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5c634a5d4075ef02f587dabf026d3fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_576a2d31f459ec8137744d6f755d220d = $(`<div id="html_576a2d31f459ec8137744d6f755d220d" style="width: 100.0%; height: 100.0%;">Cliente: SILVANA CALCADOS LTDA ME<br>Endereço: DR ANTONIO M GUIMARAES 634, BRUMADO, BA</div>`)[0];
+                popup_5c634a5d4075ef02f587dabf026d3fb5.setContent(html_576a2d31f459ec8137744d6f755d220d);
+            
+        
+
+        marker_a41e8c217154f6e8ad72b33942ea9a7d.bindPopup(popup_5c634a5d4075ef02f587dabf026d3fb5)
+        ;
+
+        
+    
+    
+            var marker_b1a02150e55d36a3ae4b47b0a909eda2 = L.marker(
+                [-15.416178, -39.4980034],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_8829a3d57ad4787148da6545b5936b78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_039609378a7dc55d4f2abe843115d32e = $(`<div id="html_039609378a7dc55d4f2abe843115d32e" style="width: 100.0%; height: 100.0%;">Cliente: LUIS MAGNO DA SILVA<br>Endereço: ANTONIO PEREIRA DOS SANTOS 25, CAMACAN, BA</div>`)[0];
+                popup_8829a3d57ad4787148da6545b5936b78.setContent(html_039609378a7dc55d4f2abe843115d32e);
+            
+        
+
+        marker_b1a02150e55d36a3ae4b47b0a909eda2.bindPopup(popup_8829a3d57ad4787148da6545b5936b78)
+        ;
+
+        
+    
+    
+            var marker_b60e8d2bbb06cdfc465c0faae5748021 = L.marker(
+                [-15.416178, -39.4980034],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_99b045d1e01bf23130f72e0189e50ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1812e4038a9e56c5b3c4fff21dfcfc2f = $(`<div id="html_1812e4038a9e56c5b3c4fff21dfcfc2f" style="width: 100.0%; height: 100.0%;">Cliente: LUIS MAGNO DA SILVA<br>Endereço: ANTONIO PEREIRA DOS SANTOS 25, CAMACAN, BA</div>`)[0];
+                popup_99b045d1e01bf23130f72e0189e50ae7.setContent(html_1812e4038a9e56c5b3c4fff21dfcfc2f);
+            
+        
+
+        marker_b60e8d2bbb06cdfc465c0faae5748021.bindPopup(popup_99b045d1e01bf23130f72e0189e50ae7)
+        ;
+
+        
+    
+    
+            var marker_5004262dc9a331e29f7a66d9db6852fc = L.marker(
+                [-17.5378863, -39.7426158],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_81e3166b0b60c6dff2b18129abfcccab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52f38a07695c87e4e1f8a6dafac47228 = $(`<div id="html_52f38a07695c87e4e1f8a6dafac47228" style="width: 100.0%; height: 100.0%;">Cliente: ZEN COMERCIO DE CALCADOS LTDA<br>Endereço: PRINCESA ISABEL 56, TEIXEIRA DE FREITAS, BA</div>`)[0];
+                popup_81e3166b0b60c6dff2b18129abfcccab.setContent(html_52f38a07695c87e4e1f8a6dafac47228);
+            
+        
+
+        marker_5004262dc9a331e29f7a66d9db6852fc.bindPopup(popup_81e3166b0b60c6dff2b18129abfcccab)
+        ;
+
+        
+    
+    
+            var marker_cb022ccd3426c7e7aa7525a98fa8320d = L.marker(
+                [-16.373568, -39.5865579],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_be47a5b82d84696c94b205770a171f60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a019679daf818aabefcc387557acb78 = $(`<div id="html_5a019679daf818aabefcc387557acb78" style="width: 100.0%; height: 100.0%;">Cliente: CARLA CALCADOS LTDA - ME<br>Endereço: CINCO DE NOVEMBRO 310, EUNAPOLIS, BA</div>`)[0];
+                popup_be47a5b82d84696c94b205770a171f60.setContent(html_5a019679daf818aabefcc387557acb78);
+            
+        
+
+        marker_cb022ccd3426c7e7aa7525a98fa8320d.bindPopup(popup_be47a5b82d84696c94b205770a171f60)
+        ;
+
+        
+    
+    
+            var marker_3f32801a3990ad8a9790604566a47915 = L.marker(
+                [-18.0084559, -39.8621414],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_db45f7828414c4b63f3c5bbe558912a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25107636d4ca86e0238f3581e8856f7b = $(`<div id="html_25107636d4ca86e0238f3581e8856f7b" style="width: 100.0%; height: 100.0%;">Cliente: MANOEL MESSIAS ALVES DE ALMEIDA ME<br>Endereço: JORGE BORGES JAHEL 39, MUCURI, BA</div>`)[0];
+                popup_db45f7828414c4b63f3c5bbe558912a6.setContent(html_25107636d4ca86e0238f3581e8856f7b);
+            
+        
+
+        marker_3f32801a3990ad8a9790604566a47915.bindPopup(popup_db45f7828414c4b63f3c5bbe558912a6)
+        ;
+
+        
+    
+    
+            var marker_1335430e142ac965d69696b0773b6383 = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d5988d23dc30df11944de3e83649b317 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb8d36d737304128cb1cb6c7417f6d28 = $(`<div id="html_cb8d36d737304128cb1cb6c7417f6d28" style="width: 100.0%; height: 100.0%;">Cliente: BM LIGHT CALCADOS LTDA - EPP<br>Endereço: ALVES PEREIRA 09, JEQUIE, BA</div>`)[0];
+                popup_d5988d23dc30df11944de3e83649b317.setContent(html_cb8d36d737304128cb1cb6c7417f6d28);
+            
+        
+
+        marker_1335430e142ac965d69696b0773b6383.bindPopup(popup_d5988d23dc30df11944de3e83649b317)
+        ;
+
+        
+    
+    
+            var marker_46118f87810a89b0702955affc647cb6 = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_e59ed6125c1f0adbe82185e96913b97a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d52996d7b63f9a23ab41d8b030f8765b = $(`<div id="html_d52996d7b63f9a23ab41d8b030f8765b" style="width: 100.0%; height: 100.0%;">Cliente: HELEN CALCADOS LTDA<br>Endereço: ALVES PEREIRA 06, JEQUIE, BA</div>`)[0];
+                popup_e59ed6125c1f0adbe82185e96913b97a.setContent(html_d52996d7b63f9a23ab41d8b030f8765b);
+            
+        
+
+        marker_46118f87810a89b0702955affc647cb6.bindPopup(popup_e59ed6125c1f0adbe82185e96913b97a)
+        ;
+
+        
+    
+    
+            var marker_f31c5dd24a33360760c5e321e0e9218a = L.marker(
+                [-16.5759925, -39.5590508],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_779c2992cb052a4707854938d4079afe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de4dd8c475bb1e7a969b056af6b09242 = $(`<div id="html_de4dd8c475bb1e7a969b056af6b09242" style="width: 100.0%; height: 100.0%;">Cliente: CELIA CRISTINA DA SILVA COSTA - EPP<br>Endereço: SANTOS DUMONT 144, ITABELA, BA</div>`)[0];
+                popup_779c2992cb052a4707854938d4079afe.setContent(html_de4dd8c475bb1e7a969b056af6b09242);
+            
+        
+
+        marker_f31c5dd24a33360760c5e321e0e9218a.bindPopup(popup_779c2992cb052a4707854938d4079afe)
+        ;
+
+        
+    
+    
+            var marker_e1f884e0da97abfb76b9267f6f47dc0e = L.marker(
+                [-14.8625311, -39.5890865],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5c043c91ef922a608fa1fcf528a6c187 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86b9ac803355f09b209c4861cc58bacd = $(`<div id="html_86b9ac803355f09b209c4861cc58bacd" style="width: 100.0%; height: 100.0%;">Cliente: BETO PRETINHA E CONFECCOES LTDA<br>Endereço: PROF OTAVIO MONTEIRO 30, IBICARAI, BA</div>`)[0];
+                popup_5c043c91ef922a608fa1fcf528a6c187.setContent(html_86b9ac803355f09b209c4861cc58bacd);
+            
+        
+
+        marker_e1f884e0da97abfb76b9267f6f47dc0e.bindPopup(popup_5c043c91ef922a608fa1fcf528a6c187)
+        ;
+
+        
+    
+    
+            var marker_291670d96282950a43052936fa12fcd5 = L.marker(
+                [-14.792599, -39.0453843],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_08ca18dba38392027b9be80e0252011a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a117af3957b5164f04519396f0a2179 = $(`<div id="html_7a117af3957b5164f04519396f0a2179" style="width: 100.0%; height: 100.0%;">Cliente: NALINE CALCADOS LTDA<br>Endereço: SA OLIVEIRA 98, ILHEUS, BA</div>`)[0];
+                popup_08ca18dba38392027b9be80e0252011a.setContent(html_7a117af3957b5164f04519396f0a2179);
+            
+        
+
+        marker_291670d96282950a43052936fa12fcd5.bindPopup(popup_08ca18dba38392027b9be80e0252011a)
+        ;
+
+        
+    
+    
+            var marker_65d98cc38410de2554c9ae9c1a204d8d = L.marker(
+                [-14.7974476, -39.2784539],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_4bc68970f8db0d6fb2141d19b47ec925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_301145dbc9513217f7a286e254a15a44 = $(`<div id="html_301145dbc9513217f7a286e254a15a44" style="width: 100.0%; height: 100.0%;">Cliente: YONARA MILENA A.SIMOES<br>Endereço: CINQUENTENARIO 693, ITABUNA, BA</div>`)[0];
+                popup_4bc68970f8db0d6fb2141d19b47ec925.setContent(html_301145dbc9513217f7a286e254a15a44);
+            
+        
+
+        marker_65d98cc38410de2554c9ae9c1a204d8d.bindPopup(popup_4bc68970f8db0d6fb2141d19b47ec925)
+        ;
+
+        
+    
+    
+            var marker_39d14ce2e55c43f5d28c1aac3eb21ace = L.marker(
+                [-14.8505194, -40.8419484],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2c392d6e088db74d163039fab2e83dc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0d4ab788c3bf55b893035b3f154924a = $(`<div id="html_b0d4ab788c3bf55b893035b3f154924a" style="width: 100.0%; height: 100.0%;">Cliente: MARIA JOSE FALCAO ANDRADE E CIA LTDA - ME<br>Endereço: DA BANDEIRA 17, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_2c392d6e088db74d163039fab2e83dc7.setContent(html_b0d4ab788c3bf55b893035b3f154924a);
+            
+        
+
+        marker_39d14ce2e55c43f5d28c1aac3eb21ace.bindPopup(popup_2c392d6e088db74d163039fab2e83dc7)
+        ;
+
+        
+    
+    
+            var marker_b7f2b1d5a2e6eb99f0a472d7fde14f2c = L.marker(
+                [-14.223066, -42.779943],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_58fb1f769f300a83cf986c1c9ca0d2c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56db42e9e80ca0d771055eee6a5be089 = $(`<div id="html_56db42e9e80ca0d771055eee6a5be089" style="width: 100.0%; height: 100.0%;">Cliente: CLAVE MODAS LTDA<br>Endereço: DR FRANCISCO JOSE FERNANDES 115, GUANAMBI, BA</div>`)[0];
+                popup_58fb1f769f300a83cf986c1c9ca0d2c1.setContent(html_56db42e9e80ca0d771055eee6a5be089);
+            
+        
+
+        marker_b7f2b1d5a2e6eb99f0a472d7fde14f2c.bindPopup(popup_58fb1f769f300a83cf986c1c9ca0d2c1)
+        ;
+
+        
+    
+    
+            var marker_b4532f07eaa990e647b140daf989d095 = L.marker(
+                [-13.2282298, -39.5060149],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7f969b2e76e996205653d9f70aab93e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3558b0bf87c5646f30519393d4d4d107 = $(`<div id="html_3558b0bf87c5646f30519393d4d4d107" style="width: 100.0%; height: 100.0%;">Cliente: EDVALDO DE SOUZA ARAUJO JUNIOR & CIA LTDA<br>Endereço: RUY BARBOSA 183, MUTUIPE, BA</div>`)[0];
+                popup_7f969b2e76e996205653d9f70aab93e3.setContent(html_3558b0bf87c5646f30519393d4d4d107);
+            
+        
+
+        marker_b4532f07eaa990e647b140daf989d095.bindPopup(popup_7f969b2e76e996205653d9f70aab93e3)
+        ;
+
+        
+    
+    
+            var marker_d383ee2e58704a1ac4df2c5c32949baa = L.marker(
+                [-13.7452095, -39.4874583],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_f7c80ae6219917439010c6a79d1b2db6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_704bcee4d6640e305e47a1c77b7ab3be = $(`<div id="html_704bcee4d6640e305e47a1c77b7ab3be" style="width: 100.0%; height: 100.0%;">Cliente: JORGE REGINALDO DE LIMA<br>Endereço: LANDULFO ALVES 106, GANDU, BA</div>`)[0];
+                popup_f7c80ae6219917439010c6a79d1b2db6.setContent(html_704bcee4d6640e305e47a1c77b7ab3be);
+            
+        
+
+        marker_d383ee2e58704a1ac4df2c5c32949baa.bindPopup(popup_f7c80ae6219917439010c6a79d1b2db6)
+        ;
+
+        
+    
+    
+            var marker_653c814908486f4f63a5026991f969db = L.marker(
+                [-13.7452095, -39.4874583],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2f3e514431a3f9de3e3769b19d088dc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a17b59d89d1d8285081383b874a8c61 = $(`<div id="html_5a17b59d89d1d8285081383b874a8c61" style="width: 100.0%; height: 100.0%;">Cliente: JORGE REGINALDO DE LIMA<br>Endereço: LANDULFO ALVES 106, GANDU, BA</div>`)[0];
+                popup_2f3e514431a3f9de3e3769b19d088dc7.setContent(html_5a17b59d89d1d8285081383b874a8c61);
+            
+        
+
+        marker_653c814908486f4f63a5026991f969db.bindPopup(popup_2f3e514431a3f9de3e3769b19d088dc7)
+        ;
+
+        
+    
+    
+            var marker_2b9873fc55137712820e261da94c77de = L.marker(
+                [-14.7974476, -39.2784539],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ebb29529f6f4a9e13fd6685ae42b9340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24182763d0dc50a84f98bf47e0060e4d = $(`<div id="html_24182763d0dc50a84f98bf47e0060e4d" style="width: 100.0%; height: 100.0%;">Cliente: REJUCEN COMERCIO DE CALC.LTDA<br>Endereço: CINQUENTENARIO 582, ITABUNA, BA</div>`)[0];
+                popup_ebb29529f6f4a9e13fd6685ae42b9340.setContent(html_24182763d0dc50a84f98bf47e0060e4d);
+            
+        
+
+        marker_2b9873fc55137712820e261da94c77de.bindPopup(popup_ebb29529f6f4a9e13fd6685ae42b9340)
+        ;
+
+        
+    
+    
+            var marker_cf3ed59a4a8ec1f90006a85d539f6a23 = L.marker(
+                [-15.6768567, -38.9422712],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5e7f46208c6fb7eddfb9d66b3291dd1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83731389782d3eff2b4d59d1450c51a8 = $(`<div id="html_83731389782d3eff2b4d59d1450c51a8" style="width: 100.0%; height: 100.0%;">Cliente: OSMAR MOREIRA MARQUES<br>Endereço: RIO BRANCO 662, CANAVIEIRAS, BA</div>`)[0];
+                popup_5e7f46208c6fb7eddfb9d66b3291dd1e.setContent(html_83731389782d3eff2b4d59d1450c51a8);
+            
+        
+
+        marker_cf3ed59a4a8ec1f90006a85d539f6a23.bindPopup(popup_5e7f46208c6fb7eddfb9d66b3291dd1e)
+        ;
+
+        
+    
+    
+            var marker_1704e129a7b571ae9ed56fbb5bbc0752 = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d69758468bebdeec65f4e58606b7b5e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_805e6a582f0f63c20f22f52ecfeb0a60 = $(`<div id="html_805e6a582f0f63c20f22f52ecfeb0a60" style="width: 100.0%; height: 100.0%;">Cliente: NETAO CALCADOS LTDA<br>Endereço: ALVES PEREIRA 14, JEQUIE, BA</div>`)[0];
+                popup_d69758468bebdeec65f4e58606b7b5e7.setContent(html_805e6a582f0f63c20f22f52ecfeb0a60);
+            
+        
+
+        marker_1704e129a7b571ae9ed56fbb5bbc0752.bindPopup(popup_d69758468bebdeec65f4e58606b7b5e7)
+        ;
+
+        
+    
+    
+            var marker_f62f1edbed409fb5436f73504794c554 = L.marker(
+                [-14.8631785, -40.8541396],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d43e513d57df3965aff283c8ca28e8a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3d5e6af1efa30319eb4a5b454394eb7 = $(`<div id="html_d3d5e6af1efa30319eb4a5b454394eb7" style="width: 100.0%; height: 100.0%;">Cliente: ROBINSON SANTANA DE OLIVEIRA<br>Endereço: ITABUNA 2523, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_d43e513d57df3965aff283c8ca28e8a7.setContent(html_d3d5e6af1efa30319eb4a5b454394eb7);
+            
+        
+
+        marker_f62f1edbed409fb5436f73504794c554.bindPopup(popup_d43e513d57df3965aff283c8ca28e8a7)
+        ;
+
+        
+    
+    
+            var marker_494d40e8d6a6341dd56abceccdab454d = L.marker(
+                [-17.3730251, -40.2210616],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_76954c0fbf7db3d458dc89e4fe1629b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f31169673ac7151f51c2d140ba8be346 = $(`<div id="html_f31169673ac7151f51c2d140ba8be346" style="width: 100.0%; height: 100.0%;">Cliente: JOSE ILDO ALMEIDA CUNHA - EPP<br>Endereço: RUA TEIXEIRA DE FREITAS,30 30, MEDEIROS NETO, BA</div>`)[0];
+                popup_76954c0fbf7db3d458dc89e4fe1629b6.setContent(html_f31169673ac7151f51c2d140ba8be346);
+            
+        
+
+        marker_494d40e8d6a6341dd56abceccdab454d.bindPopup(popup_76954c0fbf7db3d458dc89e4fe1629b6)
+        ;
+
+        
+    
+    
+            var marker_66ce054a6beaae4d7c6efa79c9c6428c = L.marker(
+                [-17.8528583, -40.3359547],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_34e92ad4f8455f6084b2c1edef7a8eb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_205e5e60e5df3f4cb28e1c8c85565929 = $(`<div id="html_205e5e60e5df3f4cb28e1c8c85565929" style="width: 100.0%; height: 100.0%;">Cliente: FCF COMERCIO DE CALCADOS LTDA<br>Endereço: SANTOS DUMONT 95, NANUQUE, MG</div>`)[0];
+                popup_34e92ad4f8455f6084b2c1edef7a8eb2.setContent(html_205e5e60e5df3f4cb28e1c8c85565929);
+            
+        
+
+        marker_66ce054a6beaae4d7c6efa79c9c6428c.bindPopup(popup_34e92ad4f8455f6084b2c1edef7a8eb2)
+        ;
+
+        
+    
+    
+            var marker_0bfaa936724e6681d22444e79aad8455 = L.marker(
+                [-14.8505194, -40.8419484],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_6613d75efe179274e8edd6275a35469d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_891c5d33c49b02d60cf77369cd37b654 = $(`<div id="html_891c5d33c49b02d60cf77369cd37b654" style="width: 100.0%; height: 100.0%;">Cliente: IRIS CLARIO DE OLIVEIRA BRITO<br>Endereço: DA BANDEIRA 153, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_6613d75efe179274e8edd6275a35469d.setContent(html_891c5d33c49b02d60cf77369cd37b654);
+            
+        
+
+        marker_0bfaa936724e6681d22444e79aad8455.bindPopup(popup_6613d75efe179274e8edd6275a35469d)
+        ;
+
+        
+    
+    
+            var marker_defda74139f400268430d90a3178aeba = L.marker(
+                [-14.1415359, -39.7320528],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_99ec752b0094281745df787841513cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bee80287c86845c50313ed952f0d697 = $(`<div id="html_7bee80287c86845c50313ed952f0d697" style="width: 100.0%; height: 100.0%;">Cliente: LOJAS NACIONAL COM VAREJ DE TECIDOS E CALC LTDA<br>Endereço: SETE DE SETEMBRO 16, IPIAU, BA</div>`)[0];
+                popup_99ec752b0094281745df787841513cc1.setContent(html_7bee80287c86845c50313ed952f0d697);
+            
+        
+
+        marker_defda74139f400268430d90a3178aeba.bindPopup(popup_99ec752b0094281745df787841513cc1)
+        ;
+
+        
+    
+    
+            var marker_96d05f0cd120d626c79fa8800c9157e8 = L.marker(
+                [-13.7452095, -39.4874583],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_12b826561ed3f3cbefd31e2e5391b1f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18a70a639fbf44f31e3b35f2003deb5c = $(`<div id="html_18a70a639fbf44f31e3b35f2003deb5c" style="width: 100.0%; height: 100.0%;">Cliente: DELSONITA MARIA DOS SANTOS LIMA<br>Endereço: LANDULFO ALVES 17, GANDU, BA</div>`)[0];
+                popup_12b826561ed3f3cbefd31e2e5391b1f7.setContent(html_18a70a639fbf44f31e3b35f2003deb5c);
+            
+        
+
+        marker_96d05f0cd120d626c79fa8800c9157e8.bindPopup(popup_12b826561ed3f3cbefd31e2e5391b1f7)
+        ;
+
+        
+    
+    
+            var marker_36a8a2629efbf4a72966f6d2ff9e1132 = L.marker(
+                [-15.7392204, -39.5480729],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9aa3f1e6c618e883bf2caf06941a3efd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e12ab21de0b6c58af544a1c63689c9a = $(`<div id="html_4e12ab21de0b6c58af544a1c63689c9a" style="width: 100.0%; height: 100.0%;">Cliente: W J M CALCADOS E CONFECCOES LTDA<br>Endereço: RUI BARBOSA 27, ITAPETINGA, BA</div>`)[0];
+                popup_9aa3f1e6c618e883bf2caf06941a3efd.setContent(html_4e12ab21de0b6c58af544a1c63689c9a);
+            
+        
+
+        marker_36a8a2629efbf4a72966f6d2ff9e1132.bindPopup(popup_9aa3f1e6c618e883bf2caf06941a3efd)
+        ;
+
+        
+    
+    
+            var marker_d58dad39f8bf5e35d8e1b14416e8277d = L.marker(
+                [-14.8918014, -40.8452076],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_676423aa72450a448555ce73cf84ba70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5af3ad3c0cf230af848a915bd1269870 = $(`<div id="html_5af3ad3c0cf230af848a915bd1269870" style="width: 100.0%; height: 100.0%;">Cliente: LOJAS L A LTDA<br>Endereço: JURACY MAGALHAES 3340, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_676423aa72450a448555ce73cf84ba70.setContent(html_5af3ad3c0cf230af848a915bd1269870);
+            
+        
+
+        marker_d58dad39f8bf5e35d8e1b14416e8277d.bindPopup(popup_676423aa72450a448555ce73cf84ba70)
+        ;
+
+        
+    
+    
+            var marker_2d3d1596d83c0c0cea9a99d2b934f20d = L.marker(
+                [-14.8602238, -39.6561384],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2398aeb2c67634343138a05fcdaf5b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3de26ab4389d486f9115ff96565f11cc = $(`<div id="html_3de26ab4389d486f9115ff96565f11cc" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIAL DE CALCADOS IDEAL LTDA ME<br>Endereço: RAIMUNDO SILVA CARDOSO 13, FLORESTA AZUL, BA</div>`)[0];
+                popup_2398aeb2c67634343138a05fcdaf5b2c.setContent(html_3de26ab4389d486f9115ff96565f11cc);
+            
+        
+
+        marker_2d3d1596d83c0c0cea9a99d2b934f20d.bindPopup(popup_2398aeb2c67634343138a05fcdaf5b2c)
+        ;
+
+        
+    
+    
+            var marker_61cca82ec4db831087042e0bc37776e0 = L.marker(
+                [-14.2085555, -39.6009278],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_1adf554d93abecaf84fb27ba185c0ccd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13ca52a422b87dc5b057bb31a3c32dd5 = $(`<div id="html_13ca52a422b87dc5b057bb31a3c32dd5" style="width: 100.0%; height: 100.0%;">Cliente: LIMA CALCADOS LTDA<br>Endereço: RUY BARBOSA 44, IPIAU, BA</div>`)[0];
+                popup_1adf554d93abecaf84fb27ba185c0ccd.setContent(html_13ca52a422b87dc5b057bb31a3c32dd5);
+            
+        
+
+        marker_61cca82ec4db831087042e0bc37776e0.bindPopup(popup_1adf554d93abecaf84fb27ba185c0ccd)
+        ;
+
+        
+    
+    
+            var marker_8e5d720d305e4d159eca8088757866c4 = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9defbf56bc46d0eb0d8bf77ebb605ad9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e736afdfb41aba517813d8820cfb833 = $(`<div id="html_7e736afdfb41aba517813d8820cfb833" style="width: 100.0%; height: 100.0%;">Cliente: ADRIANA CALCADOS LTDA<br>Endereço: LAURO DE FREITAS 204, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_9defbf56bc46d0eb0d8bf77ebb605ad9.setContent(html_7e736afdfb41aba517813d8820cfb833);
+            
+        
+
+        marker_8e5d720d305e4d159eca8088757866c4.bindPopup(popup_9defbf56bc46d0eb0d8bf77ebb605ad9)
+        ;
+
+        
+    
+    
+            var marker_d1d85f102604e9eb8fcd35ccd198b3ff = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_724afe27e676fff2e45207485c2f02f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_221a6ab0f7d14adec2f94bc1c3b5510c = $(`<div id="html_221a6ab0f7d14adec2f94bc1c3b5510c" style="width: 100.0%; height: 100.0%;">Cliente: ADRIANA CALCADOS LTDA<br>Endereço: LAURO DE FREITAS 204, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_724afe27e676fff2e45207485c2f02f1.setContent(html_221a6ab0f7d14adec2f94bc1c3b5510c);
+            
+        
+
+        marker_d1d85f102604e9eb8fcd35ccd198b3ff.bindPopup(popup_724afe27e676fff2e45207485c2f02f1)
+        ;
+
+        
+    
+    
+            var marker_bb817edfc544037eb0cf9094f5f7f7b5 = L.marker(
+                [-14.7700824, -42.6559713],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_e41f72dc12d78d823f489ff8cdb2832f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a64c733dc0adf50c5bc25fa7dc31d883 = $(`<div id="html_a64c733dc0adf50c5bc25fa7dc31d883" style="width: 100.0%; height: 100.0%;">Cliente: IEDE DE OLIVEIRA ROCHA ME<br>Endereço: BARAO DO RIO BRANCO 10, URANDI, BA</div>`)[0];
+                popup_e41f72dc12d78d823f489ff8cdb2832f.setContent(html_a64c733dc0adf50c5bc25fa7dc31d883);
+            
+        
+
+        marker_bb817edfc544037eb0cf9094f5f7f7b5.bindPopup(popup_e41f72dc12d78d823f489ff8cdb2832f)
+        ;
+
+        
+    
+    
+            var marker_5c2260259a815798545514af53c6fda7 = L.marker(
+                [-14.223066, -42.779943],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_658aac41ac32d789a713b8326d268209 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f14a78e945baa8848d36fd5ce396cdb6 = $(`<div id="html_f14a78e945baa8848d36fd5ce396cdb6" style="width: 100.0%; height: 100.0%;">Cliente: PRIMOS E PRIMOS CALCADOS E CONFECCOES LTDA<br>Endereço: CORONEL PEDRO FCO DE MORAES 94, GUANAMBI, BA</div>`)[0];
+                popup_658aac41ac32d789a713b8326d268209.setContent(html_f14a78e945baa8848d36fd5ce396cdb6);
+            
+        
+
+        marker_5c2260259a815798545514af53c6fda7.bindPopup(popup_658aac41ac32d789a713b8326d268209)
+        ;
+
+        
+    
+    
+            var marker_5f237b035295f0e8c541bcd46924c0c4 = L.marker(
+                [-14.1401008, -39.7334593],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_fad8af9222a7c59793aaee54662e288f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5e91a2da4c107387ea4a63c19aa3f4 = $(`<div id="html_1e5e91a2da4c107387ea4a63c19aa3f4" style="width: 100.0%; height: 100.0%;">Cliente: PEIXOTO & RIBEIRO LTDA - EPP<br>Endereço: DOIS DE JULHO 53, IPIAU, BA</div>`)[0];
+                popup_fad8af9222a7c59793aaee54662e288f.setContent(html_1e5e91a2da4c107387ea4a63c19aa3f4);
+            
+        
+
+        marker_5f237b035295f0e8c541bcd46924c0c4.bindPopup(popup_fad8af9222a7c59793aaee54662e288f)
+        ;
+
+        
+    
+    
+            var marker_3104225c80fdebef4bfb18f2d64459df = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ead89558dd687bc0b44a9b91f52ab72b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cb2aa4866665e0ab4edb82297282a0d = $(`<div id="html_2cb2aa4866665e0ab4edb82297282a0d" style="width: 100.0%; height: 100.0%;">Cliente: MARIA DALVA SANTANA OLIVEIRA & CIA LTDA - EPP<br>Endereço: LAURO DE FREITAS 09, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_ead89558dd687bc0b44a9b91f52ab72b.setContent(html_2cb2aa4866665e0ab4edb82297282a0d);
+            
+        
+
+        marker_3104225c80fdebef4bfb18f2d64459df.bindPopup(popup_ead89558dd687bc0b44a9b91f52ab72b)
+        ;
+
+        
+    
+    
+            var marker_10d392d6bb5e9297e7f148d1cc4a76cf = L.marker(
+                [-14.0689097, -42.4883203],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_845c07b9bc34530ad97f7b97dad156dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5ea39770c07eb1a7c6f23452efe316c = $(`<div id="html_b5ea39770c07eb1a7c6f23452efe316c" style="width: 100.0%; height: 100.0%;">Cliente: LUCINETE ABADIA SILVA<br>Endereço: SANTANA 266, CAETITE, BA</div>`)[0];
+                popup_845c07b9bc34530ad97f7b97dad156dd.setContent(html_b5ea39770c07eb1a7c6f23452efe316c);
+            
+        
+
+        marker_10d392d6bb5e9297e7f148d1cc4a76cf.bindPopup(popup_845c07b9bc34530ad97f7b97dad156dd)
+        ;
+
+        
+    
+    
+            var marker_adf0a372ba69f6f53d3ba53261439155 = L.marker(
+                [-16.443473, -39.064251],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_06b91ad2e9577c8e5ec05cd060ce929a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28446949feef0694d9816b91e8867b8a = $(`<div id="html_28446949feef0694d9816b91e8867b8a" style="width: 100.0%; height: 100.0%;">Cliente: MARIAN MODAS LTDA<br>Endereço: PORTO SEGURO 407, EUNAPOLIS, BA</div>`)[0];
+                popup_06b91ad2e9577c8e5ec05cd060ce929a.setContent(html_28446949feef0694d9816b91e8867b8a);
+            
+        
+
+        marker_adf0a372ba69f6f53d3ba53261439155.bindPopup(popup_06b91ad2e9577c8e5ec05cd060ce929a)
+        ;
+
+        
+    
+    
+            var marker_9ab95559e42f9e8cfefab0bdd049a271 = L.marker(
+                [-14.8970856, -39.4246637],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_038098d2a3402c51823577c52daccddf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33c8969b8532d32ee1d36587d718a5ea = $(`<div id="html_33c8969b8532d32ee1d36587d718a5ea" style="width: 100.0%; height: 100.0%;">Cliente: ANA C FERREIRA A SIMOES<br>Endereço: JOAO ANTONIO DE MENEZES 85, ITAPE, BA</div>`)[0];
+                popup_038098d2a3402c51823577c52daccddf.setContent(html_33c8969b8532d32ee1d36587d718a5ea);
+            
+        
+
+        marker_9ab95559e42f9e8cfefab0bdd049a271.bindPopup(popup_038098d2a3402c51823577c52daccddf)
+        ;
+
+        
+    
+    
+            var marker_38451db4d733a54dea8f65a9bd4b380c = L.marker(
+                [-14.5016997, -42.2233942],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d4eeeb2561417e2e6544bbc01e3587cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82184413691221a3058f0ddb4d7b40db = $(`<div id="html_82184413691221a3058f0ddb4d7b40db" style="width: 100.0%; height: 100.0%;">Cliente: ANA CRISTINA MIRANDA PEREIRA<br>Endereço: CONEGO MIGUEL MONTEIRO 40, CACULE, BA</div>`)[0];
+                popup_d4eeeb2561417e2e6544bbc01e3587cc.setContent(html_82184413691221a3058f0ddb4d7b40db);
+            
+        
+
+        marker_38451db4d733a54dea8f65a9bd4b380c.bindPopup(popup_d4eeeb2561417e2e6544bbc01e3587cc)
+        ;
+
+        
+    
+    
+            var marker_f46eb4f366761e6b9d311ef2e1acdf6a = L.marker(
+                [-16.443473, -39.064251],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_fc8000a6be006cd9cee23e8faf078033 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c18d26e2774662b168c1bbee52b54d8 = $(`<div id="html_2c18d26e2774662b168c1bbee52b54d8" style="width: 100.0%; height: 100.0%;">Cliente: G L COMERCIAL DE CALCADOS LTDA<br>Endereço: PORTO SEGURO 537, EUNAPOLIS, BA</div>`)[0];
+                popup_fc8000a6be006cd9cee23e8faf078033.setContent(html_2c18d26e2774662b168c1bbee52b54d8);
+            
+        
+
+        marker_f46eb4f366761e6b9d311ef2e1acdf6a.bindPopup(popup_fc8000a6be006cd9cee23e8faf078033)
+        ;
+
+        
+    
+    
+            var marker_f1224f6d31b22fb90f991dc71c1a31f5 = L.marker(
+                [-13.1809956, -39.4222968],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_b67f8a11f3bb4372d79b42ca4af58213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28a975932fda421c1f81ec109d85064 = $(`<div id="html_b28a975932fda421c1f81ec109d85064" style="width: 100.0%; height: 100.0%;">Cliente: M. C. RIBEIRO LTDA<br>Endereço: DR JOAO MARTINS 30, LAJE, BA</div>`)[0];
+                popup_b67f8a11f3bb4372d79b42ca4af58213.setContent(html_b28a975932fda421c1f81ec109d85064);
+            
+        
+
+        marker_f1224f6d31b22fb90f991dc71c1a31f5.bindPopup(popup_b67f8a11f3bb4372d79b42ca4af58213)
+        ;
+
+        
+    
+    
+            var marker_a5d5bd4bdf613b5e105ef046f6bc9669 = L.marker(
+                [-14.2113456, -41.6705406],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_630ba115c53933ce137c2f71d47d02fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_162015e7e7c0873dc5d6d0b7f60a6538 = $(`<div id="html_162015e7e7c0873dc5d6d0b7f60a6538" style="width: 100.0%; height: 100.0%;">Cliente: ALMIR AGUIAR SANTOS ME<br>Endereço: TEOFILO ALVES DE LIMA 70, BRUMADO, BA</div>`)[0];
+                popup_630ba115c53933ce137c2f71d47d02fc.setContent(html_162015e7e7c0873dc5d6d0b7f60a6538);
+            
+        
+
+        marker_a5d5bd4bdf613b5e105ef046f6bc9669.bindPopup(popup_630ba115c53933ce137c2f71d47d02fc)
+        ;
+
+        
+    
+    
+            var marker_fae7c8ed4fc18df6f59e1f7e4118fcdb = L.marker(
+                [-14.9544483, -39.3092041],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_715f141ec3fdc56bf5e8e1f10cc25d4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e6e77cbcf04f58951e0dc559c50de85 = $(`<div id="html_8e6e77cbcf04f58951e0dc559c50de85" style="width: 100.0%; height: 100.0%;">Cliente: VIVALDO DE AZEVEDO SANTOS<br>Endereço: PAULO PORTELA 195, BUERAREMA, BA</div>`)[0];
+                popup_715f141ec3fdc56bf5e8e1f10cc25d4f.setContent(html_8e6e77cbcf04f58951e0dc559c50de85);
+            
+        
+
+        marker_fae7c8ed4fc18df6f59e1f7e4118fcdb.bindPopup(popup_715f141ec3fdc56bf5e8e1f10cc25d4f)
+        ;
+
+        
+    
+    
+            var marker_1ef917bba36e907bf58a7ce18db2c66c = L.marker(
+                [-13.7452095, -39.4874583],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5f52d0068e7a52e0710786fa895eebbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66e594d51674f7c6803082db3b5be72d = $(`<div id="html_66e594d51674f7c6803082db3b5be72d" style="width: 100.0%; height: 100.0%;">Cliente: CALCADOS GANDUENSE LTDA<br>Endereço: LANDULFO ALVES 15/18, GANDU, BA</div>`)[0];
+                popup_5f52d0068e7a52e0710786fa895eebbc.setContent(html_66e594d51674f7c6803082db3b5be72d);
+            
+        
+
+        marker_1ef917bba36e907bf58a7ce18db2c66c.bindPopup(popup_5f52d0068e7a52e0710786fa895eebbc)
+        ;
+
+        
+    
+    
+            var marker_3d53b1563f96a1c8b23b6e32bd0ac2bb = L.marker(
+                [-13.7366503, -39.4804103],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ec855f45371acb70191f371ad1cfb4bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_045e06aaf07f80318c88d0aed2b61cc2 = $(`<div id="html_045e06aaf07f80318c88d0aed2b61cc2" style="width: 100.0%; height: 100.0%;">Cliente: IPIAU CALCADOS LTDA ME<br>Endereço: 2 DE JULHO 134, IPIAU, BA</div>`)[0];
+                popup_ec855f45371acb70191f371ad1cfb4bc.setContent(html_045e06aaf07f80318c88d0aed2b61cc2);
+            
+        
+
+        marker_3d53b1563f96a1c8b23b6e32bd0ac2bb.bindPopup(popup_ec855f45371acb70191f371ad1cfb4bc)
+        ;
+
+        
+    
+    
+            var marker_55fa7e75492d541f6a2b1f82a6022214 = L.marker(
+                [-14.5016997, -42.2233942],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0a6e9aa4e9be6469dacd4b00ac7aa5aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8bcc5f4fa30503d10881105d5828b80 = $(`<div id="html_f8bcc5f4fa30503d10881105d5828b80" style="width: 100.0%; height: 100.0%;">Cliente: MAUREDINO ZAURISIO SARAIVA - EPP<br>Endereço: CONEGO MIGUEL MONTEIRO 296, CACULE, BA</div>`)[0];
+                popup_0a6e9aa4e9be6469dacd4b00ac7aa5aa.setContent(html_f8bcc5f4fa30503d10881105d5828b80);
+            
+        
+
+        marker_55fa7e75492d541f6a2b1f82a6022214.bindPopup(popup_0a6e9aa4e9be6469dacd4b00ac7aa5aa)
+        ;
+
+        
+    
+    
+            var marker_aa51c75e7873fa304cfee8ebfc067d87 = L.marker(
+                [-16.4257989, -39.089074],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_42457612dae4ea54e8b7d4196b486c35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93c55f137771ff12752a78a47a481d39 = $(`<div id="html_93c55f137771ff12752a78a47a481d39" style="width: 100.0%; height: 100.0%;">Cliente: GOTA COMERCIAL DE CALCADOS LTDA<br>Endereço: GETULIO VARGAS 124, PORTO SEGURO, BA</div>`)[0];
+                popup_42457612dae4ea54e8b7d4196b486c35.setContent(html_93c55f137771ff12752a78a47a481d39);
+            
+        
+
+        marker_aa51c75e7873fa304cfee8ebfc067d87.bindPopup(popup_42457612dae4ea54e8b7d4196b486c35)
+        ;
+
+        
+    
+    
+            var marker_defd19f01f7b56a298e6cb5fd9506381 = L.marker(
+                [-14.8567487, -40.8414804],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_823fb1fa5037bdcb668b16c4eff70fff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_293c0f14d87bb484af4646f8f635988c = $(`<div id="html_293c0f14d87bb484af4646f8f635988c" style="width: 100.0%; height: 100.0%;">Cliente: VIA PES COMERCIO DE CALC.LTDA<br>Endereço: FRANCISCO SANTOS 84A, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_823fb1fa5037bdcb668b16c4eff70fff.setContent(html_293c0f14d87bb484af4646f8f635988c);
+            
+        
+
+        marker_defd19f01f7b56a298e6cb5fd9506381.bindPopup(popup_823fb1fa5037bdcb668b16c4eff70fff)
+        ;
+
+        
+    
+    
+            var marker_6afdf5ddf35f35daa897036ccff6b6e7 = L.marker(
+                [-14.6407979, -39.5496765],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_4f93321796d3b5a9afc3e3b6ea68806c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d663f1b3b78348c61bbea9a5faae4b7 = $(`<div id="html_8d663f1b3b78348c61bbea9a5faae4b7" style="width: 100.0%; height: 100.0%;">Cliente: A PAULICEIA CONFECCOES LTDA ME<br>Endereço: RUY BARBOSA 29, COARACI, BA</div>`)[0];
+                popup_4f93321796d3b5a9afc3e3b6ea68806c.setContent(html_8d663f1b3b78348c61bbea9a5faae4b7);
+            
+        
+
+        marker_6afdf5ddf35f35daa897036ccff6b6e7.bindPopup(popup_4f93321796d3b5a9afc3e3b6ea68806c)
+        ;
+
+        
+    
+    
+            var marker_36a5b7e79228a9fe32dc44bba6802fdf = L.marker(
+                [-14.7974476, -39.2784539],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_f3c5f047dd34015882c6a0eb746f0c8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caf67412e869a4136e5288bc80b76541 = $(`<div id="html_caf67412e869a4136e5288bc80b76541" style="width: 100.0%; height: 100.0%;">Cliente: GEMAR CALCADOS LTDA<br>Endereço: CINQUENTENARIO 896, ITABUNA, BA</div>`)[0];
+                popup_f3c5f047dd34015882c6a0eb746f0c8c.setContent(html_caf67412e869a4136e5288bc80b76541);
+            
+        
+
+        marker_36a5b7e79228a9fe32dc44bba6802fdf.bindPopup(popup_f3c5f047dd34015882c6a0eb746f0c8c)
+        ;
+
+        
+    
+    
+            var marker_00adfe7681997fe97c381dd368d215b9 = L.marker(
+                [-13.6266113, -41.3270089],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_895e8ff8a7b9673482238326d2e62544 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a078e252cb2b2e3cf39784d31eb42ebd = $(`<div id="html_a078e252cb2b2e3cf39784d31eb42ebd" style="width: 100.0%; height: 100.0%;">Cliente: SARUTH CALCADOS LTDA<br>Endereço: MELCHIADES CAIRES 120, BARRA DA ESTIVA, BA</div>`)[0];
+                popup_895e8ff8a7b9673482238326d2e62544.setContent(html_a078e252cb2b2e3cf39784d31eb42ebd);
+            
+        
+
+        marker_00adfe7681997fe97c381dd368d215b9.bindPopup(popup_895e8ff8a7b9673482238326d2e62544)
+        ;
+
+        
+    
+    
+            var marker_4563914ec19095dfef875917076aafb3 = L.marker(
+                [-14.8625311, -39.5890865],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_f6e9831b068d2e2af0f4d7a2f1a9e0a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_347933d2d8fc2b621e0ec2823b717d3d = $(`<div id="html_347933d2d8fc2b621e0ec2823b717d3d" style="width: 100.0%; height: 100.0%;">Cliente: A C S RIOS SANTOS CALCADOS<br>Endereço: SAO VICENTE DE PAULA 112, IBICARAI, BA</div>`)[0];
+                popup_f6e9831b068d2e2af0f4d7a2f1a9e0a3.setContent(html_347933d2d8fc2b621e0ec2823b717d3d);
+            
+        
+
+        marker_4563914ec19095dfef875917076aafb3.bindPopup(popup_f6e9831b068d2e2af0f4d7a2f1a9e0a3)
+        ;
+
+        
+    
+    
+            var marker_20026290127d3cf6c4960c567153f951 = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5278a9a9cbbd2725c656c8ccdf2d7b39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_747bb31d65739c27e74e8aa98c0dde8d = $(`<div id="html_747bb31d65739c27e74e8aa98c0dde8d" style="width: 100.0%; height: 100.0%;">Cliente: TEMAR CALCADOS E CONFECCOES LTDA<br>Endereço: LAURO DE FREITAS 188, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_5278a9a9cbbd2725c656c8ccdf2d7b39.setContent(html_747bb31d65739c27e74e8aa98c0dde8d);
+            
+        
+
+        marker_20026290127d3cf6c4960c567153f951.bindPopup(popup_5278a9a9cbbd2725c656c8ccdf2d7b39)
+        ;
+
+        
+    
+    
+            var marker_242e15ff6f37357eed63815087a1f34a = L.marker(
+                [-13.0201974, -42.6911525],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_fd144d0957606bb81fa82e8799e53d91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5605fc8eb132f6efbae555a17e9ce30 = $(`<div id="html_a5605fc8eb132f6efbae555a17e9ce30" style="width: 100.0%; height: 100.0%;">Cliente: EDINICE MAGALHAES CARNEIRO SILVA<br>Endereço: DOIS DE JULHO 14, GUANAMBI, BA</div>`)[0];
+                popup_fd144d0957606bb81fa82e8799e53d91.setContent(html_a5605fc8eb132f6efbae555a17e9ce30);
+            
+        
+
+        marker_242e15ff6f37357eed63815087a1f34a.bindPopup(popup_fd144d0957606bb81fa82e8799e53d91)
+        ;
+
+        
+    
+    
+            var marker_d2a543ce0e52bd33d8eaf44b338cf481 = L.marker(
+                [-13.0201974, -42.6911525],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_8e17c75311cfd85194c4b82a23d117a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c5b1f3df968381638e74eeef3a23664 = $(`<div id="html_5c5b1f3df968381638e74eeef3a23664" style="width: 100.0%; height: 100.0%;">Cliente: EDINICE MAGALHAES CARNEIRO SILVA<br>Endereço: DOIS DE JULHO 14, GUANAMBI, BA</div>`)[0];
+                popup_8e17c75311cfd85194c4b82a23d117a9.setContent(html_5c5b1f3df968381638e74eeef3a23664);
+            
+        
+
+        marker_d2a543ce0e52bd33d8eaf44b338cf481.bindPopup(popup_8e17c75311cfd85194c4b82a23d117a9)
+        ;
+
+        
+    
+    
+            var marker_3d2dea4fd8ee4a6a8fced6dc906d7fec = L.marker(
+                [-13.7448138, -39.4844732],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_b48333665113b563c032f86f87d9a3ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b0d2d91e00a7f4b6cf7b1f61dbf4da2 = $(`<div id="html_7b0d2d91e00a7f4b6cf7b1f61dbf4da2" style="width: 100.0%; height: 100.0%;">Cliente: GANDU CALCADOS LTDA EPP<br>Endereço: DA BIBLIA 27, GANDU, BA</div>`)[0];
+                popup_b48333665113b563c032f86f87d9a3ad.setContent(html_7b0d2d91e00a7f4b6cf7b1f61dbf4da2);
+            
+        
+
+        marker_3d2dea4fd8ee4a6a8fced6dc906d7fec.bindPopup(popup_b48333665113b563c032f86f87d9a3ad)
+        ;
+
+        
+    
+    
+            var marker_e44f2346e2346d95fcf5245b6bb6580b = L.marker(
+                [-17.5391054, -39.7424392],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_002d12bfa8fc7b83f5279a9bd5be1d4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a950ce8a95b9fbc39ff555662c11ac2 = $(`<div id="html_7a950ce8a95b9fbc39ff555662c11ac2" style="width: 100.0%; height: 100.0%;">Cliente: RELUZ CALCADOS E CONFECCOES LTDA ME<br>Endereço: ZILDA ARNS NEUMANN 190, TEIXEIRA DE FREITAS, BA</div>`)[0];
+                popup_002d12bfa8fc7b83f5279a9bd5be1d4f.setContent(html_7a950ce8a95b9fbc39ff555662c11ac2);
+            
+        
+
+        marker_e44f2346e2346d95fcf5245b6bb6580b.bindPopup(popup_002d12bfa8fc7b83f5279a9bd5be1d4f)
+        ;
+
+        
+    
+    
+            var marker_114a8cae341fc9b2fae2e3ec6c73e94b = L.marker(
+                [-16.443473, -39.064251],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9003c0b5dbfe0ec906a30606073ba6c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a53ee3458a4b572c8404c24e52b87db = $(`<div id="html_7a53ee3458a4b572c8404c24e52b87db" style="width: 100.0%; height: 100.0%;">Cliente: TALLES KAIQUE COMERCIAL DE CALCADOS LTDA - ME<br>Endereço: PORTO SEGURO 361, EUNAPOLIS, BA</div>`)[0];
+                popup_9003c0b5dbfe0ec906a30606073ba6c4.setContent(html_7a53ee3458a4b572c8404c24e52b87db);
+            
+        
+
+        marker_114a8cae341fc9b2fae2e3ec6c73e94b.bindPopup(popup_9003c0b5dbfe0ec906a30606073ba6c4)
+        ;
+
+        
+    
+    
+            var marker_5a7ae09a509a3bdb2e9c2d32e9dd6844 = L.marker(
+                [-13.2687324, -39.6614499],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_4b492a429ee5c70028f4e1aeeeb74d3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2353229f8a562b51267f07131fbb3087 = $(`<div id="html_2353229f8a562b51267f07131fbb3087" style="width: 100.0%; height: 100.0%;">Cliente: DELA CELA & MONTEIRO LTDA<br>Endereço: FERNANDES BARRETO 100, UBAIRA, BA</div>`)[0];
+                popup_4b492a429ee5c70028f4e1aeeeb74d3e.setContent(html_2353229f8a562b51267f07131fbb3087);
+            
+        
+
+        marker_5a7ae09a509a3bdb2e9c2d32e9dd6844.bindPopup(popup_4b492a429ee5c70028f4e1aeeeb74d3e)
+        ;
+
+        
+    
+    
+            var marker_22130af68865292855f0a063b948707b = L.marker(
+                [-13.0301794, -39.6038814],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_16530e7cf9d8781033a7a62c41483953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47bcb8e58852933e801e79b0e9f1bbc4 = $(`<div id="html_47bcb8e58852933e801e79b0e9f1bbc4" style="width: 100.0%; height: 100.0%;">Cliente: LEVE CALCADOS LTDA<br>Endereço: RIACHUELO 61, AMARGOSA, BA</div>`)[0];
+                popup_16530e7cf9d8781033a7a62c41483953.setContent(html_47bcb8e58852933e801e79b0e9f1bbc4);
+            
+        
+
+        marker_22130af68865292855f0a063b948707b.bindPopup(popup_16530e7cf9d8781033a7a62c41483953)
+        ;
+
+        
+    
+    
+            var marker_05a9987bffc4a1cdcd0ee0da833bc3d7 = L.marker(
+                [-13.4556558, -39.4212197],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0c626cef916a56f626646190662069ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7771601d63b76bd11db33c2872ff9391 = $(`<div id="html_7771601d63b76bd11db33c2872ff9391" style="width: 100.0%; height: 100.0%;">Cliente: ROAN COMERCIO DE CONFECCOES LTDA<br>Endereço: SETE DE SETEMBRO 44, PRESIDENTE TANCREDO NEVES, BA</div>`)[0];
+                popup_0c626cef916a56f626646190662069ee.setContent(html_7771601d63b76bd11db33c2872ff9391);
+            
+        
+
+        marker_05a9987bffc4a1cdcd0ee0da833bc3d7.bindPopup(popup_0c626cef916a56f626646190662069ee)
+        ;
+
+        
+    
+    
+            var marker_056e453c85d4f2fd3c4d1f29efe81053 = L.marker(
+                [-13.4556558, -39.4212197],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_8a7ffed6907ffe81356aef51964eb98a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2a7687df741523037bcdc5c89833415 = $(`<div id="html_c2a7687df741523037bcdc5c89833415" style="width: 100.0%; height: 100.0%;">Cliente: ROAN COMERCIO DE CONFECCOES LTDA<br>Endereço: SETE DE SETEMBRO 44, PRESIDENTE TANCREDO NEVES, BA</div>`)[0];
+                popup_8a7ffed6907ffe81356aef51964eb98a.setContent(html_c2a7687df741523037bcdc5c89833415);
+            
+        
+
+        marker_056e453c85d4f2fd3c4d1f29efe81053.bindPopup(popup_8a7ffed6907ffe81356aef51964eb98a)
+        ;
+
+        
+    
+    
+            var marker_c616f66b70ec6ff575dc8d88f594263d = L.marker(
+                [-14.2070489, -41.665572049999994],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_54b3582754cd4e176847d148e1a9c3cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6b4313bf4f76a176408e1a8815e2524 = $(`<div id="html_b6b4313bf4f76a176408e1a8815e2524" style="width: 100.0%; height: 100.0%;">Cliente: BRUMADO COMERCIO DE TECIDOS LTDA<br>Endereço: CORONEL TIBERIO MEIRA 237, BRUMADO, BA</div>`)[0];
+                popup_54b3582754cd4e176847d148e1a9c3cb.setContent(html_b6b4313bf4f76a176408e1a8815e2524);
+            
+        
+
+        marker_c616f66b70ec6ff575dc8d88f594263d.bindPopup(popup_54b3582754cd4e176847d148e1a9c3cb)
+        ;
+
+        
+    
+    
+            var marker_6c8fd2f1e1afa1178df41753969b5bcd = L.marker(
+                [-13.0301794, -39.6038814],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_527631dab105ab2ecd8aed4c76db3e35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78404e6cf32dd5822f98922b207a6aae = $(`<div id="html_78404e6cf32dd5822f98922b207a6aae" style="width: 100.0%; height: 100.0%;">Cliente: MAGAZINE PASSOFORT LTDA - ME<br>Endereço: RIACHUELO 18, AMARGOSA, BA</div>`)[0];
+                popup_527631dab105ab2ecd8aed4c76db3e35.setContent(html_78404e6cf32dd5822f98922b207a6aae);
+            
+        
+
+        marker_6c8fd2f1e1afa1178df41753969b5bcd.bindPopup(popup_527631dab105ab2ecd8aed4c76db3e35)
+        ;
+
+        
+    
+    
+            var marker_15a2b5ce93443a4b00d755ea944348b0 = L.marker(
+                [-13.2687324, -39.6614499],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_bb0932d3158446941280e80acdf8e171 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f69408afbb125d7df4a18d06f4eae985 = $(`<div id="html_f69408afbb125d7df4a18d06f4eae985" style="width: 100.0%; height: 100.0%;">Cliente: ZULEMES NUNES DE ASSIS<br>Endereço: FERNANDES BARRETO 216, UBAIRA, BA</div>`)[0];
+                popup_bb0932d3158446941280e80acdf8e171.setContent(html_f69408afbb125d7df4a18d06f4eae985);
+            
+        
+
+        marker_15a2b5ce93443a4b00d755ea944348b0.bindPopup(popup_bb0932d3158446941280e80acdf8e171)
+        ;
+
+        
+    
+    
+            var marker_003e9279b23fd82085bd67bd7d205f35 = L.marker(
+                [-17.0339783, -39.5318423],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_c0043c5d88874b9ba9094cc1d38db6af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_462635a71da45a6acb407ee9c9d599f3 = $(`<div id="html_462635a71da45a6acb407ee9c9d599f3" style="width: 100.0%; height: 100.0%;">Cliente: C.F.O.CALCADOS LTDA<br>Endereço: CASTELO BRANCO 606, ITAMARAJU, BA</div>`)[0];
+                popup_c0043c5d88874b9ba9094cc1d38db6af.setContent(html_462635a71da45a6acb407ee9c9d599f3);
+            
+        
+
+        marker_003e9279b23fd82085bd67bd7d205f35.bindPopup(popup_c0043c5d88874b9ba9094cc1d38db6af)
+        ;
+
+        
+    
+    
+            var marker_1ffc0927a63cf6c261d26eda6ce44e5d = L.marker(
+                [-14.489201, -42.3586465],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9f70bb2cbf6df0e502ebe2d312232564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7923b53cc8cc07a164711c8f26138566 = $(`<div id="html_7923b53cc8cc07a164711c8f26138566" style="width: 100.0%; height: 100.0%;">Cliente: JOSE DE BRITO BALEEIRO<br>Endereço: BOA VISTA 266, LICINIO DE ALMEIDA, BA</div>`)[0];
+                popup_9f70bb2cbf6df0e502ebe2d312232564.setContent(html_7923b53cc8cc07a164711c8f26138566);
+            
+        
+
+        marker_1ffc0927a63cf6c261d26eda6ce44e5d.bindPopup(popup_9f70bb2cbf6df0e502ebe2d312232564)
+        ;
+
+        
+    
+    
+            var marker_023f35632bc6a862fc0937483464610c = L.marker(
+                [-13.5294974, -39.9693081],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_66ea0f6dcc108160346f424568ef85c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ca0e382a42aa88331eddab7f709b36a = $(`<div id="html_1ca0e382a42aa88331eddab7f709b36a" style="width: 100.0%; height: 100.0%;">Cliente: PIZZANTI CALCADOS E CONFECCOES LTDA<br>Endereço: GOMES PITA 70, JAGUAQUARA, BA</div>`)[0];
+                popup_66ea0f6dcc108160346f424568ef85c2.setContent(html_1ca0e382a42aa88331eddab7f709b36a);
+            
+        
+
+        marker_023f35632bc6a862fc0937483464610c.bindPopup(popup_66ea0f6dcc108160346f424568ef85c2)
+        ;
+
+        
+    
+    
+            var marker_1c5f41889accde5686e6dcc4d8881d5e = L.marker(
+                [-14.06873285, -42.490294368737565],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_194a52e5add14cfef509607d91f2e8ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad0dce06605e7ee6f6cbbdba4386bf28 = $(`<div id="html_ad0dce06605e7ee6f6cbbdba4386bf28" style="width: 100.0%; height: 100.0%;">Cliente: VAGA CALCADOS LTDA<br>Endereço: SANTANA 420, CAETITE, BA</div>`)[0];
+                popup_194a52e5add14cfef509607d91f2e8ac.setContent(html_ad0dce06605e7ee6f6cbbdba4386bf28);
+            
+        
+
+        marker_1c5f41889accde5686e6dcc4d8881d5e.bindPopup(popup_194a52e5add14cfef509607d91f2e8ac)
+        ;
+
+        
+    
+    
+            var marker_6d296d13aafe0dacb82f2510ee41fbca = L.marker(
+                [-14.06873285, -42.490294368737565],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2f5ae66dd15e3926c2ed0fa625fd2cae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae4a38e9a60fb921de916d170b766cd5 = $(`<div id="html_ae4a38e9a60fb921de916d170b766cd5" style="width: 100.0%; height: 100.0%;">Cliente: VAGA CALCADOS LTDA<br>Endereço: SANTANA 420, CAETITE, BA</div>`)[0];
+                popup_2f5ae66dd15e3926c2ed0fa625fd2cae.setContent(html_ae4a38e9a60fb921de916d170b766cd5);
+            
+        
+
+        marker_6d296d13aafe0dacb82f2510ee41fbca.bindPopup(popup_2f5ae66dd15e3926c2ed0fa625fd2cae)
+        ;
+
+        
+    
+    
+            var marker_330c893c58209c2c512c2b9383d32197 = L.marker(
+                [-14.793173, -39.2750341],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2206353f481332ab18f8558bab2ee87f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_259d22194e646e92dbe2011d2fbad2f5 = $(`<div id="html_259d22194e646e92dbe2011d2fbad2f5" style="width: 100.0%; height: 100.0%;">Cliente: GALERA ARTIGOS ESPORTIVOS LTDA<br>Endereço: RUA PAULINO VIEIRA 291 TERREO CENTRO 291, ITABUNA, BA</div>`)[0];
+                popup_2206353f481332ab18f8558bab2ee87f.setContent(html_259d22194e646e92dbe2011d2fbad2f5);
+            
+        
+
+        marker_330c893c58209c2c512c2b9383d32197.bindPopup(popup_2206353f481332ab18f8558bab2ee87f)
+        ;
+
+        
+    
+    
+            var marker_28a3dae9c1dc8b811a5d2bfc54a263ca = L.marker(
+                [-13.8604033, -40.0719627],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_73aef1daff210574d8e4c4eabc80f4fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcc73f3bca394ea0b297c7d43e873544 = $(`<div id="html_dcc73f3bca394ea0b297c7d43e873544" style="width: 100.0%; height: 100.0%;">Cliente: ATM CALCADOS EIRELI - EPP<br>Endereço: ALVARES PEREIRA 22, JEQUIE, BA</div>`)[0];
+                popup_73aef1daff210574d8e4c4eabc80f4fd.setContent(html_dcc73f3bca394ea0b297c7d43e873544);
+            
+        
+
+        marker_28a3dae9c1dc8b811a5d2bfc54a263ca.bindPopup(popup_73aef1daff210574d8e4c4eabc80f4fd)
+        ;
+
+        
+    
+    
+            var marker_551e10d22f5625b0e341faec45358751 = L.marker(
+                [-16.1604846, -40.6838606],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_f05b4e65f451057eff17991a6a9125e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35a6a61c465ff3e1fb26192885c1ce7f = $(`<div id="html_35a6a61c465ff3e1fb26192885c1ce7f" style="width: 100.0%; height: 100.0%;">Cliente: ALMENARA COM.DE CONF.ACES.LTDA<br>Endereço: OLINDO DE MIRANDA 33, ALMENARA, MG</div>`)[0];
+                popup_f05b4e65f451057eff17991a6a9125e5.setContent(html_35a6a61c465ff3e1fb26192885c1ce7f);
+            
+        
+
+        marker_551e10d22f5625b0e341faec45358751.bindPopup(popup_f05b4e65f451057eff17991a6a9125e5)
+        ;
+
+        
+    
+    
+            var marker_85abebf8ba6b7b7c55e0946cd7004127 = L.marker(
+                [-15.0338286, -41.2585109],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_a50fb3c6a9dd9e67fbe89c0d5b537f1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b75b5fb5c4d7889f14d31d1e1af6b55 = $(`<div id="html_2b75b5fb5c4d7889f14d31d1e1af6b55" style="width: 100.0%; height: 100.0%;">Cliente: NAUDINHA PEREIRA DE SOUSA<br>Endereço: ALMIRO FERRAZ DE ARAUJO 11, BELO CAMPO, BA</div>`)[0];
+                popup_a50fb3c6a9dd9e67fbe89c0d5b537f1a.setContent(html_2b75b5fb5c4d7889f14d31d1e1af6b55);
+            
+        
+
+        marker_85abebf8ba6b7b7c55e0946cd7004127.bindPopup(popup_a50fb3c6a9dd9e67fbe89c0d5b537f1a)
+        ;
+
+        
+    
+    
+            var marker_fdb7b204e78326d7a2e4ffb7a5d815a4 = L.marker(
+                [-13.2273053, -39.5042771],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d875bbd928c88d7d076d32a6ad82665c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3acf8c2ebef669be2200067b471e801 = $(`<div id="html_b3acf8c2ebef669be2200067b471e801" style="width: 100.0%; height: 100.0%;">Cliente: EMERSON SOUZA SANTOS DE MUTUPE ME<br>Endereço: BEIRA RIO S/N, MUTUIPE, BA</div>`)[0];
+                popup_d875bbd928c88d7d076d32a6ad82665c.setContent(html_b3acf8c2ebef669be2200067b471e801);
+            
+        
+
+        marker_fdb7b204e78326d7a2e4ffb7a5d815a4.bindPopup(popup_d875bbd928c88d7d076d32a6ad82665c)
+        ;
+
+        
+    
+    
+            var marker_c5b720cdfeb270bcd003a846b051933c = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_af592ec904f737cd7a8da9449d73b2e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fe8bdbefd63a1f148b0bfaa344d8243 = $(`<div id="html_1fe8bdbefd63a1f148b0bfaa344d8243" style="width: 100.0%; height: 100.0%;">Cliente: GINA MAGAZINE LTDA<br>Endereço: ALVES PEREIRA 12, JEQUIE, BA</div>`)[0];
+                popup_af592ec904f737cd7a8da9449d73b2e8.setContent(html_1fe8bdbefd63a1f148b0bfaa344d8243);
+            
+        
+
+        marker_c5b720cdfeb270bcd003a846b051933c.bindPopup(popup_af592ec904f737cd7a8da9449d73b2e8)
+        ;
+
+        
+    
+    
+            var marker_18bd664b890a496b01ee4f503df2e4ab = L.marker(
+                [-17.1697011, -40.3309375],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_b24d6bdb964a0e0cd99641baaaf35603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0703bca1a86b9b03359d4cd43c8b743b = $(`<div id="html_0703bca1a86b9b03359d4cd43c8b743b" style="width: 100.0%; height: 100.0%;">Cliente: ISNA MARTINS PINHEIRO CHAGAS<br>Endereço: MARIA MOREIRA LISBOA 379, ITANHEM, BA</div>`)[0];
+                popup_b24d6bdb964a0e0cd99641baaaf35603.setContent(html_0703bca1a86b9b03359d4cd43c8b743b);
+            
+        
+
+        marker_18bd664b890a496b01ee4f503df2e4ab.bindPopup(popup_b24d6bdb964a0e0cd99641baaaf35603)
+        ;
+
+        
+    
+    
+            var marker_1fd2d15968b793290f591de155122a99 = L.marker(
+                [-14.8469679, -40.8753211],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_e80cc315061a7917d3ef182d2288f798 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48600d8d36ca267f6254df1d81bf5396 = $(`<div id="html_48600d8d36ca267f6254df1d81bf5396" style="width: 100.0%; height: 100.0%;">Cliente: RUBENILDO RIBEIRO AMARAL<br>Endereço: BRUMADO 378, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_e80cc315061a7917d3ef182d2288f798.setContent(html_48600d8d36ca267f6254df1d81bf5396);
+            
+        
+
+        marker_1fd2d15968b793290f591de155122a99.bindPopup(popup_e80cc315061a7917d3ef182d2288f798)
+        ;
+
+        
+    
+    
+            var marker_64f4b8510b90b96de1032143dfd12b1e = L.marker(
+                [-14.812311, -39.2743233],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_1c79a6bd9976385621789236f4d33d7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bdae10d8cef92f9275103b7e828d58b = $(`<div id="html_5bdae10d8cef92f9275103b7e828d58b" style="width: 100.0%; height: 100.0%;">Cliente: SIMOES E SIMOES COMERCIO CALCADOS VEST LTDA<br>Endereço: PRINCESA ISABEL 1069, ITABUNA, BA</div>`)[0];
+                popup_1c79a6bd9976385621789236f4d33d7b.setContent(html_5bdae10d8cef92f9275103b7e828d58b);
+            
+        
+
+        marker_64f4b8510b90b96de1032143dfd12b1e.bindPopup(popup_1c79a6bd9976385621789236f4d33d7b)
+        ;
+
+        
+    
+    
+            var marker_8671509b4b0717a6812b225463522033 = L.marker(
+                [-14.2085555, -39.6009278],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_50f639d4dd28063e17ffc71e63193b09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709ba60d87dc6e716f1ea1eca8b42d10 = $(`<div id="html_709ba60d87dc6e716f1ea1eca8b42d10" style="width: 100.0%; height: 100.0%;">Cliente: AL COMERCIO DE CONFECCOES LTDA. - EPP<br>Endereço: RUY BARBOSA 30, IPIAU, BA</div>`)[0];
+                popup_50f639d4dd28063e17ffc71e63193b09.setContent(html_709ba60d87dc6e716f1ea1eca8b42d10);
+            
+        
+
+        marker_8671509b4b0717a6812b225463522033.bindPopup(popup_50f639d4dd28063e17ffc71e63193b09)
+        ;
+
+        
+    
+    
+            var marker_eda533741e57570f043ba6b9bacbea18 = L.marker(
+                [-14.2271626, -42.7796945],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_87a8a4d4cadba34679030ae8d25025c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce7821583916fd14f3893cdfe679f2d1 = $(`<div id="html_ce7821583916fd14f3893cdfe679f2d1" style="width: 100.0%; height: 100.0%;">Cliente: ANTONIO MARCOS DIAS VIEIRA<br>Endereço: CEL PEDRO FRANCISCO DE MORAES 146, GUANAMBI, BA</div>`)[0];
+                popup_87a8a4d4cadba34679030ae8d25025c8.setContent(html_ce7821583916fd14f3893cdfe679f2d1);
+            
+        
+
+        marker_eda533741e57570f043ba6b9bacbea18.bindPopup(popup_87a8a4d4cadba34679030ae8d25025c8)
+        ;
+
+        
+    
+    
+            var marker_0a61b19d1a547167740cfdbc9845dc95 = L.marker(
+                [-14.2271626, -42.7796945],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7f47e2bbaa9e3285e31c84c4ab07cbbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af5cc9cb967b95f449ba812d7574c599 = $(`<div id="html_af5cc9cb967b95f449ba812d7574c599" style="width: 100.0%; height: 100.0%;">Cliente: ANTONIO MARCOS DIAS VIEIRA<br>Endereço: CEL PEDRO FRANCISCO DE MORAES 146, GUANAMBI, BA</div>`)[0];
+                popup_7f47e2bbaa9e3285e31c84c4ab07cbbd.setContent(html_af5cc9cb967b95f449ba812d7574c599);
+            
+        
+
+        marker_0a61b19d1a547167740cfdbc9845dc95.bindPopup(popup_7f47e2bbaa9e3285e31c84c4ab07cbbd)
+        ;
+
+        
+    
+    
+            var marker_19c0b82b91806e5b0774475b9d3245a3 = L.marker(
+                [-17.0339783, -39.5318423],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_e40ebc0cf8c40bb5c36d600349b8dcf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ede0eb17e1057b6d04a99ae2103e3a9c = $(`<div id="html_ede0eb17e1057b6d04a99ae2103e3a9c" style="width: 100.0%; height: 100.0%;">Cliente: VM COMERCIO VAREJISTA DE CALCADOS LTDA - ME<br>Endereço: CASTELO BRANCO 528, ITAMARAJU, BA</div>`)[0];
+                popup_e40ebc0cf8c40bb5c36d600349b8dcf9.setContent(html_ede0eb17e1057b6d04a99ae2103e3a9c);
+            
+        
+
+        marker_19c0b82b91806e5b0774475b9d3245a3.bindPopup(popup_e40ebc0cf8c40bb5c36d600349b8dcf9)
+        ;
+
+        
+    
+    
+            var marker_7e52a1275c6ead918b7514b3dc22f4ab = L.marker(
+                [-14.6134669, -41.1376308],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5d21b97c56cbe335f49bbb400499daf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d82a1f9e2e1780c7441289c64dbb4fb = $(`<div id="html_2d82a1f9e2e1780c7441289c64dbb4fb" style="width: 100.0%; height: 100.0%;">Cliente: YARA MAGAZINE LTDA ME<br>Endereço: FIDELIS BOTELHO 131, ANAGE, BA</div>`)[0];
+                popup_5d21b97c56cbe335f49bbb400499daf2.setContent(html_2d82a1f9e2e1780c7441289c64dbb4fb);
+            
+        
+
+        marker_7e52a1275c6ead918b7514b3dc22f4ab.bindPopup(popup_5d21b97c56cbe335f49bbb400499daf2)
+        ;
+
+        
+    
+    
+            var marker_1297735c7c26da36fbe238c29de17eff = L.marker(
+                [-14.8631785, -40.8541396],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_93cefab8995341acf85b3dfe85877024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4f01ad57a2d155a7b6f6697d1b011e1 = $(`<div id="html_f4f01ad57a2d155a7b6f6697d1b011e1" style="width: 100.0%; height: 100.0%;">Cliente: P & K IND E COM DE MATERIAIS ESPORTIVOS LTDA ME<br>Endereço: ITABUNA 2867, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_93cefab8995341acf85b3dfe85877024.setContent(html_f4f01ad57a2d155a7b6f6697d1b011e1);
+            
+        
+
+        marker_1297735c7c26da36fbe238c29de17eff.bindPopup(popup_93cefab8995341acf85b3dfe85877024)
+        ;
+
+        
+    
+    
+            var marker_b127184cf2fa642f1ed1206ca75386a7 = L.marker(
+                [-14.5213795, -40.3730808],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_fc16a53cc46f2c30bf6d0f897a4686d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39c15d43f37c6d4f90c476ebaf44ebd1 = $(`<div id="html_39c15d43f37c6d4f90c476ebaf44ebd1" style="width: 100.0%; height: 100.0%;">Cliente: DUMONT CALCADOS E CONFECCOES LTDA<br>Endereço: CONEGO PITHON 36, POCOES, BA</div>`)[0];
+                popup_fc16a53cc46f2c30bf6d0f897a4686d2.setContent(html_39c15d43f37c6d4f90c476ebaf44ebd1);
+            
+        
+
+        marker_b127184cf2fa642f1ed1206ca75386a7.bindPopup(popup_fc16a53cc46f2c30bf6d0f897a4686d2)
+        ;
+
+        
+    
+    
+            var marker_bd37a5d545ae24b630114a5083bda962 = L.marker(
+                [-14.2094968, -41.6693778],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_f6c82bc93d26168d5cbe2c82653f265b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10c4e832ef903c574f90676b25f7c4ce = $(`<div id="html_10c4e832ef903c574f90676b25f7c4ce" style="width: 100.0%; height: 100.0%;">Cliente: HUGO CESAR COMERCIO DE CALCADOS E CONFECCOES LTDA<br>Endereço: DR ANTONIO MOURAO GUIMARAES 170-A, BRUMADO, BA</div>`)[0];
+                popup_f6c82bc93d26168d5cbe2c82653f265b.setContent(html_10c4e832ef903c574f90676b25f7c4ce);
+            
+        
+
+        marker_bd37a5d545ae24b630114a5083bda962.bindPopup(popup_f6c82bc93d26168d5cbe2c82653f265b)
+        ;
+
+        
+    
+    
+            var marker_f6edeeca8ac78db9606fdcc6a45fcfb6 = L.marker(
+                [-13.7452095, -39.4874583],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_06b62897ee6fbc0978a03b3093294655 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa0a0d10e0751bb8f3ea0c4e03055e9 = $(`<div id="html_0aa0a0d10e0751bb8f3ea0c4e03055e9" style="width: 100.0%; height: 100.0%;">Cliente: GANDU FASHION MODA LTDA<br>Endereço: LANDULFO ALVES 12, GANDU, BA</div>`)[0];
+                popup_06b62897ee6fbc0978a03b3093294655.setContent(html_0aa0a0d10e0751bb8f3ea0c4e03055e9);
+            
+        
+
+        marker_f6edeeca8ac78db9606fdcc6a45fcfb6.bindPopup(popup_06b62897ee6fbc0978a03b3093294655)
+        ;
+
+        
+    
+    
+            var marker_faf1d6795f278cc3f74ba8be314028ed = L.marker(
+                [-16.443473, -39.064251],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5129be8cce4f13ca777271bf3432585a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1e7f49f218f06c09eb7ce38196401aa = $(`<div id="html_f1e7f49f218f06c09eb7ce38196401aa" style="width: 100.0%; height: 100.0%;">Cliente: CIA DOS PES LTDA - ME<br>Endereço: PORTO SEGURO 545, EUNAPOLIS, BA</div>`)[0];
+                popup_5129be8cce4f13ca777271bf3432585a.setContent(html_f1e7f49f218f06c09eb7ce38196401aa);
+            
+        
+
+        marker_faf1d6795f278cc3f74ba8be314028ed.bindPopup(popup_5129be8cce4f13ca777271bf3432585a)
+        ;
+
+        
+    
+    
+            var marker_4226323e7a1d69581b7479a6132c1593 = L.marker(
+                [-14.4125032, -42.8714102],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_6f52fcfa97332ae121f73959e70fc286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a1ca6de045a01079d4ae58c914f432b = $(`<div id="html_2a1ca6de045a01079d4ae58c914f432b" style="width: 100.0%; height: 100.0%;">Cliente: WILTON JOSE MUNIZ MOURA 50074288504<br>Endereço: PRES VARGAS 119, CANDIBA, BA</div>`)[0];
+                popup_6f52fcfa97332ae121f73959e70fc286.setContent(html_2a1ca6de045a01079d4ae58c914f432b);
+            
+        
+
+        marker_4226323e7a1d69581b7479a6132c1593.bindPopup(popup_6f52fcfa97332ae121f73959e70fc286)
+        ;
+
+        
+    
+    
+            var marker_df7e4dd9f0f860f2c28711f124f3fbe9 = L.marker(
+                [-14.4125032, -42.8714102],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_67e0a26169b13aed6f0ed59c95c89fcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c083a6cf3b71feecf645c85d5785eb08 = $(`<div id="html_c083a6cf3b71feecf645c85d5785eb08" style="width: 100.0%; height: 100.0%;">Cliente: WILTON JOSE MUNIZ MOURA 50074288504<br>Endereço: PRES VARGAS 119, CANDIBA, BA</div>`)[0];
+                popup_67e0a26169b13aed6f0ed59c95c89fcd.setContent(html_c083a6cf3b71feecf645c85d5785eb08);
+            
+        
+
+        marker_df7e4dd9f0f860f2c28711f124f3fbe9.bindPopup(popup_67e0a26169b13aed6f0ed59c95c89fcd)
+        ;
+
+        
+    
+    
+            var marker_d6b2670e0a9e29e974702dcf3dc7b61a = L.marker(
+                [-16.5769793, -39.5635256],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7221a998551943bfad563fb540c788fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_513f2fdede76793cb929b7931825d304 = $(`<div id="html_513f2fdede76793cb929b7931825d304" style="width: 100.0%; height: 100.0%;">Cliente: ORQUIDEAS PLANTAS E CONFECCOES LTDA<br>Endereço: JAIRO GOES 12, ITABELA, BA</div>`)[0];
+                popup_7221a998551943bfad563fb540c788fc.setContent(html_513f2fdede76793cb929b7931825d304);
+            
+        
+
+        marker_d6b2670e0a9e29e974702dcf3dc7b61a.bindPopup(popup_7221a998551943bfad563fb540c788fc)
+        ;
+
+        
+    
+    
+            var marker_177e26029975e39b042e80d927f38c70 = L.marker(
+                [-14.6689214, -40.481006],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_285111ac21a3901cc5a9f8e4f587f3b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_983b6a0dd0ce8ec091fce1a25023cdb1 = $(`<div id="html_983b6a0dd0ce8ec091fce1a25023cdb1" style="width: 100.0%; height: 100.0%;">Cliente: REGINA DE CASSIA P S DA SILVA<br>Endereço: ANTONIO A DE AZEVEDO 425, PLANALTO, BA</div>`)[0];
+                popup_285111ac21a3901cc5a9f8e4f587f3b2.setContent(html_983b6a0dd0ce8ec091fce1a25023cdb1);
+            
+        
+
+        marker_177e26029975e39b042e80d927f38c70.bindPopup(popup_285111ac21a3901cc5a9f8e4f587f3b2)
+        ;
+
+        
+    
+    
+            var marker_ae6bd8e639ced6e4a00bb44da640c188 = L.marker(
+                [-17.5357079, -39.7418384],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_a3fd4d096e29f1ee1e29934e2e7f49b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6216a0fc2870ede346ae32370d9647af = $(`<div id="html_6216a0fc2870ede346ae32370d9647af" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIO DE CALC ALMEIDA BRITO LTDA ME<br>Endereço: ANTONIO CARLOS MAGALHAES 52, TEIXEIRA DE FREITAS, BA</div>`)[0];
+                popup_a3fd4d096e29f1ee1e29934e2e7f49b9.setContent(html_6216a0fc2870ede346ae32370d9647af);
+            
+        
+
+        marker_ae6bd8e639ced6e4a00bb44da640c188.bindPopup(popup_a3fd4d096e29f1ee1e29934e2e7f49b9)
+        ;
+
+        
+    
+    
+            var marker_8273f0d16a58caada08d1ac902906182 = L.marker(
+                [-14.5300786, -40.3659441],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_06281016eb306e966d28f18315d5bf55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cab2a0c2202d4a29eccb65485cc85f4 = $(`<div id="html_8cab2a0c2202d4a29eccb65485cc85f4" style="width: 100.0%; height: 100.0%;">Cliente: MARCELLA ALVES DOS ANJOS<br>Endereço: RAIMUNDO PEREIRA DE MAGALHAES 103, POCOES, BA</div>`)[0];
+                popup_06281016eb306e966d28f18315d5bf55.setContent(html_8cab2a0c2202d4a29eccb65485cc85f4);
+            
+        
+
+        marker_8273f0d16a58caada08d1ac902906182.bindPopup(popup_06281016eb306e966d28f18315d5bf55)
+        ;
+
+        
+    
+    
+            var marker_812a1d7349426bd05a6420ca2eed1eb7 = L.marker(
+                [-16.3557667, -39.5848758],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_4fc7459ac89b58d48db1d29e7ed24f50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7afa976e2a48c5cbf9a915bedc5b803 = $(`<div id="html_e7afa976e2a48c5cbf9a915bedc5b803" style="width: 100.0%; height: 100.0%;">Cliente: JOVAPE CONFECCOES E CALCADOS LTDA<br>Endereço: DUQUE DE CAXIAS 645, EUNAPOLIS, BA</div>`)[0];
+                popup_4fc7459ac89b58d48db1d29e7ed24f50.setContent(html_e7afa976e2a48c5cbf9a915bedc5b803);
+            
+        
+
+        marker_812a1d7349426bd05a6420ca2eed1eb7.bindPopup(popup_4fc7459ac89b58d48db1d29e7ed24f50)
+        ;
+
+        
+    
+    
+            var marker_65fd58862095731b02d3727051361494 = L.marker(
+                [-14.2094968, -41.6693778],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_4feee708d27710f2f57f7aa77a61cddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_663b46b4d56e136445f6d57326fd04a4 = $(`<div id="html_663b46b4d56e136445f6d57326fd04a4" style="width: 100.0%; height: 100.0%;">Cliente: FERREIRA & CIA LTDA<br>Endereço: DR ANTONIO  MOURAO GUIMARAES 272, BRUMADO, BA</div>`)[0];
+                popup_4feee708d27710f2f57f7aa77a61cddb.setContent(html_663b46b4d56e136445f6d57326fd04a4);
+            
+        
+
+        marker_65fd58862095731b02d3727051361494.bindPopup(popup_4feee708d27710f2f57f7aa77a61cddb)
+        ;
+
+        
+    
+    
+            var marker_70c3a28746dbf29225cec40f81e9c1b1 = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_8ef3cc870836a36e53b902efad84eeeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c78c966064d5740beff5c73fc8b6d6df = $(`<div id="html_c78c966064d5740beff5c73fc8b6d6df" style="width: 100.0%; height: 100.0%;">Cliente: JEQUIE COMERCIO DE CALCADOS E CONFECCOES LTDA EPP<br>Endereço: ALVES PEREIRA 11, JEQUIE, BA</div>`)[0];
+                popup_8ef3cc870836a36e53b902efad84eeeb.setContent(html_c78c966064d5740beff5c73fc8b6d6df);
+            
+        
+
+        marker_70c3a28746dbf29225cec40f81e9c1b1.bindPopup(popup_8ef3cc870836a36e53b902efad84eeeb)
+        ;
+
+        
+    
+    
+            var marker_fb47567e941af557ef8b3a981fb2f79d = L.marker(
+                [-14.1627902, -40.0069366],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7c0b5b0a911ad4096f154268cc43cf77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00b9e80937a4d525c3ed43ad5439d180 = $(`<div id="html_00b9e80937a4d525c3ed43ad5439d180" style="width: 100.0%; height: 100.0%;">Cliente: EDINEI SANTOS SILVA DE ITAGI ME<br>Endereço: NELSON DAVID RIBEIRO S/N, ITAGI, BA</div>`)[0];
+                popup_7c0b5b0a911ad4096f154268cc43cf77.setContent(html_00b9e80937a4d525c3ed43ad5439d180);
+            
+        
+
+        marker_fb47567e941af557ef8b3a981fb2f79d.bindPopup(popup_7c0b5b0a911ad4096f154268cc43cf77)
+        ;
+
+        
+    
+    
+            var marker_b03d1bd8ce81b3f211d2be4789413414 = L.marker(
+                [-14.1627902, -40.0069366],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_84d8821c41a01cd33e5d68de7a95d352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5778818fc5efe497cf5a9abfe218365d = $(`<div id="html_5778818fc5efe497cf5a9abfe218365d" style="width: 100.0%; height: 100.0%;">Cliente: EDINEI SANTOS SILVA DE ITAGI ME<br>Endereço: NELSON DAVID RIBEIRO S/N, ITAGI, BA</div>`)[0];
+                popup_84d8821c41a01cd33e5d68de7a95d352.setContent(html_5778818fc5efe497cf5a9abfe218365d);
+            
+        
+
+        marker_b03d1bd8ce81b3f211d2be4789413414.bindPopup(popup_84d8821c41a01cd33e5d68de7a95d352)
+        ;
+
+        
+    
+    
+            var marker_4d60ee4a582f3ec012ccaf7cae327c20 = L.marker(
+                [-14.0688146, -42.48812122120172],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_288e95d6309e675f0af7760ac18b6934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11a1b06f9bf06698ee549770c9cce0bd = $(`<div id="html_11a1b06f9bf06698ee549770c9cce0bd" style="width: 100.0%; height: 100.0%;">Cliente: WLTT CALCADOS CONFECCOES LTDA<br>Endereço: SANTANA 240, CAETITE, BA</div>`)[0];
+                popup_288e95d6309e675f0af7760ac18b6934.setContent(html_11a1b06f9bf06698ee549770c9cce0bd);
+            
+        
+
+        marker_4d60ee4a582f3ec012ccaf7cae327c20.bindPopup(popup_288e95d6309e675f0af7760ac18b6934)
+        ;
+
+        
+    
+    
+            var marker_b92d76c5c22fa8b839d71ddc503a6cb4 = L.marker(
+                [-16.443473, -39.064251],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_6c26689f339e71b12906e49bfab5981a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da13e445b10de6548b03a833140078e7 = $(`<div id="html_da13e445b10de6548b03a833140078e7" style="width: 100.0%; height: 100.0%;">Cliente: MIRANTE COMERCIAL DE CALCADOS LTDA<br>Endereço: 19 DE NOVEMBRO 39, PORTO SEGURO, BA</div>`)[0];
+                popup_6c26689f339e71b12906e49bfab5981a.setContent(html_da13e445b10de6548b03a833140078e7);
+            
+        
+
+        marker_b92d76c5c22fa8b839d71ddc503a6cb4.bindPopup(popup_6c26689f339e71b12906e49bfab5981a)
+        ;
+
+        
+    
+    
+            var marker_2092dc8dd9b813a9a353731c77c092d4 = L.marker(
+                [-14.5016997, -42.2233942],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_1f001b3160792c03ebeae9513ac621bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13ad03ea3be804c9fdb04023236dd585 = $(`<div id="html_13ad03ea3be804c9fdb04023236dd585" style="width: 100.0%; height: 100.0%;">Cliente: ROSANGELA GONCALVES DA SILVA - ME<br>Endereço: CONEGO MIGUEL MONTEIRO 154, CACULE, BA</div>`)[0];
+                popup_1f001b3160792c03ebeae9513ac621bb.setContent(html_13ad03ea3be804c9fdb04023236dd585);
+            
+        
+
+        marker_2092dc8dd9b813a9a353731c77c092d4.bindPopup(popup_1f001b3160792c03ebeae9513ac621bb)
+        ;
+
+        
+    
+    
+            var marker_24d91d2415e06caff021467009441fcb = L.marker(
+                [-14.5016997, -42.2233942],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_6148f147ff7001a5873715bbd3d5ee90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80d988af5df3ba251189cafbf1765f8c = $(`<div id="html_80d988af5df3ba251189cafbf1765f8c" style="width: 100.0%; height: 100.0%;">Cliente: ROSANGELA GONCALVES DA SILVA - ME<br>Endereço: CONEGO MIGUEL MONTEIRO 154, CACULE, BA</div>`)[0];
+                popup_6148f147ff7001a5873715bbd3d5ee90.setContent(html_80d988af5df3ba251189cafbf1765f8c);
+            
+        
+
+        marker_24d91d2415e06caff021467009441fcb.bindPopup(popup_6148f147ff7001a5873715bbd3d5ee90)
+        ;
+
+        
+    
+    
+            var marker_7a4e538b475335c814c9d92b47b886f4 = L.marker(
+                [-14.792599, -39.0453843],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ba46a7f41822c8d42c1120c742a99c82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1c702d6875747bbd6d73270c4c0e73f = $(`<div id="html_a1c702d6875747bbd6d73270c4c0e73f" style="width: 100.0%; height: 100.0%;">Cliente: CALCADOS TALISSON LTDA ME<br>Endereço: SA OLIVEIRA 18, ILHEUS, BA</div>`)[0];
+                popup_ba46a7f41822c8d42c1120c742a99c82.setContent(html_a1c702d6875747bbd6d73270c4c0e73f);
+            
+        
+
+        marker_7a4e538b475335c814c9d92b47b886f4.bindPopup(popup_ba46a7f41822c8d42c1120c742a99c82)
+        ;
+
+        
+    
+    
+            var marker_873960f9449fd056206c6cd6bcc857b5 = L.marker(
+                [-14.1401008, -39.7334593],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d5dff9abcee129aac960ed16d23f62b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da24de7a9d0184f4f69bd4c93ba8650a = $(`<div id="html_da24de7a9d0184f4f69bd4c93ba8650a" style="width: 100.0%; height: 100.0%;">Cliente: HLR CALCADOS E CONFECCOES LTDA ME<br>Endereço: DOIS DE JULHO 149, IPIAU, BA</div>`)[0];
+                popup_d5dff9abcee129aac960ed16d23f62b7.setContent(html_da24de7a9d0184f4f69bd4c93ba8650a);
+            
+        
+
+        marker_873960f9449fd056206c6cd6bcc857b5.bindPopup(popup_d5dff9abcee129aac960ed16d23f62b7)
+        ;
+
+        
+    
+    
+            var marker_536c27cd18cd7b08211f408adf0ef034 = L.marker(
+                [-17.0265832, -39.5384458],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_59899a85a77829feeb570ba8a868898e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cb3a9a185d2f5e79a5c1f7f7193643a = $(`<div id="html_3cb3a9a185d2f5e79a5c1f7f7193643a" style="width: 100.0%; height: 100.0%;">Cliente: N PIANISSOLI FAVALESSA - ME<br>Endereço: ANTONIO CARLOS MAGALHAES 71, ITAMARAJU, BA</div>`)[0];
+                popup_59899a85a77829feeb570ba8a868898e.setContent(html_3cb3a9a185d2f5e79a5c1f7f7193643a);
+            
+        
+
+        marker_536c27cd18cd7b08211f408adf0ef034.bindPopup(popup_59899a85a77829feeb570ba8a868898e)
+        ;
+
+        
+    
+    
+            var marker_fe0d451711b26e0b49b1aeade5108438 = L.marker(
+                [-14.2271462, -42.7796174],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_b1605fc5d0bcddb6ecab81a43a3c8ad3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de70b49c82cdeda43206504c219f9e47 = $(`<div id="html_de70b49c82cdeda43206504c219f9e47" style="width: 100.0%; height: 100.0%;">Cliente: LUAR CALCADOS E CONFECCOES LTDA<br>Endereço: CEL PEDRO FRANCISCO DE MORAES 122, GUANAMBI, BA</div>`)[0];
+                popup_b1605fc5d0bcddb6ecab81a43a3c8ad3.setContent(html_de70b49c82cdeda43206504c219f9e47);
+            
+        
+
+        marker_fe0d451711b26e0b49b1aeade5108438.bindPopup(popup_b1605fc5d0bcddb6ecab81a43a3c8ad3)
+        ;
+
+        
+    
+    
+            var marker_42bcc238013dbd90fa3c6b6196bfe97f = L.marker(
+                [-16.4257989, -39.089074],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_27761218f89d9472955f5919fb568a93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e2382b9192891136e45eef802ce73b = $(`<div id="html_f7e2382b9192891136e45eef802ce73b" style="width: 100.0%; height: 100.0%;">Cliente: CALCADOS PORTO SEGURO LTDA ME<br>Endereço: GETULIO VARGAS 247, PORTO SEGURO, BA</div>`)[0];
+                popup_27761218f89d9472955f5919fb568a93.setContent(html_f7e2382b9192891136e45eef802ce73b);
+            
+        
+
+        marker_42bcc238013dbd90fa3c6b6196bfe97f.bindPopup(popup_27761218f89d9472955f5919fb568a93)
+        ;
+
+        
+    
+    
+            var marker_30ba9a1168ebc4265507d58dd512e5cf = L.marker(
+                [-17.0265832, -39.5384458],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7bad4d57ecd53cd1e62a17aff6d293d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1285c494a0bf60435c0e72d5d46105d = $(`<div id="html_e1285c494a0bf60435c0e72d5d46105d" style="width: 100.0%; height: 100.0%;">Cliente: MARKO CALCADOS LTDA - ME<br>Endereço: ANTONIO CARLOS MAGALHAES 42, ITAMARAJU, BA</div>`)[0];
+                popup_7bad4d57ecd53cd1e62a17aff6d293d3.setContent(html_e1285c494a0bf60435c0e72d5d46105d);
+            
+        
+
+        marker_30ba9a1168ebc4265507d58dd512e5cf.bindPopup(popup_7bad4d57ecd53cd1e62a17aff6d293d3)
+        ;
+
+        
+    
+    
+            var marker_f6952ea49d1eef9941b06238a5d0335c = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2570a0027177dc356e9d8ae7b3872b11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f4eba81826ca35e55d19dd6f2617750 = $(`<div id="html_1f4eba81826ca35e55d19dd6f2617750" style="width: 100.0%; height: 100.0%;">Cliente: CIDADE SOL COMERCIO DE CALCADOS LTDA ME<br>Endereço: ALVES PEREIRA 19, JEQUIE, BA</div>`)[0];
+                popup_2570a0027177dc356e9d8ae7b3872b11.setContent(html_1f4eba81826ca35e55d19dd6f2617750);
+            
+        
+
+        marker_f6952ea49d1eef9941b06238a5d0335c.bindPopup(popup_2570a0027177dc356e9d8ae7b3872b11)
+        ;
+
+        
+    
+    
+            var marker_79b2b6c94469729fd5f624d30b9da47d = L.marker(
+                [-15.5053265, -41.2377283],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_049e416708653595882ddad9721052d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca455fd919bcde4ad1648275b41607e7 = $(`<div id="html_ca455fd919bcde4ad1648275b41607e7" style="width: 100.0%; height: 100.0%;">Cliente: EDIMAR PONTES LIMA ME<br>Endereço: MOISES FELIX DOS SANTOS 44, CANDIDO SALES, BA</div>`)[0];
+                popup_049e416708653595882ddad9721052d4.setContent(html_ca455fd919bcde4ad1648275b41607e7);
+            
+        
+
+        marker_79b2b6c94469729fd5f624d30b9da47d.bindPopup(popup_049e416708653595882ddad9721052d4)
+        ;
+
+        
+    
+    
+            var marker_2a0f04e8cbef24a5e7171b7a9d1c5ce5 = L.marker(
+                [-14.8001043, -39.0333268],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_8380eba47fdae9df734de6c8c519d907 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2441b41105a15b145b3251f63b810b0 = $(`<div id="html_b2441b41105a15b145b3251f63b810b0" style="width: 100.0%; height: 100.0%;">Cliente: OMAR COMERCIO DE CALCADOS LTDA EPP<br>Endereço: MARQUES DE PARANAGUA 259, ILHEUS, BA</div>`)[0];
+                popup_8380eba47fdae9df734de6c8c519d907.setContent(html_b2441b41105a15b145b3251f63b810b0);
+            
+        
+
+        marker_2a0f04e8cbef24a5e7171b7a9d1c5ce5.bindPopup(popup_8380eba47fdae9df734de6c8c519d907)
+        ;
+
+        
+    
+    
+            var marker_9a2890fdd951cc555167876c74679515 = L.marker(
+                [-14.8457532, -42.4328959],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9c2062cf2417fd7d82f1c2e39d3278a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0281ef759ca8b6cf009f69ae06e97541 = $(`<div id="html_0281ef759ca8b6cf009f69ae06e97541" style="width: 100.0%; height: 100.0%;">Cliente: ELAINE MARIA SANTOS LEMOS ALVES ME<br>Endereço: RIO BRANCO 26, JACARACI, BA</div>`)[0];
+                popup_9c2062cf2417fd7d82f1c2e39d3278a8.setContent(html_0281ef759ca8b6cf009f69ae06e97541);
+            
+        
+
+        marker_9a2890fdd951cc555167876c74679515.bindPopup(popup_9c2062cf2417fd7d82f1c2e39d3278a8)
+        ;
+
+        
+    
+    
+            var marker_88d819f187351d849c0090131ab93c60 = L.marker(
+                [-14.8457532, -42.4328959],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_781b3f6b65aa79218bf3b272504bc61d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d45374ef0f4ef356600747d3817e6a28 = $(`<div id="html_d45374ef0f4ef356600747d3817e6a28" style="width: 100.0%; height: 100.0%;">Cliente: ELAINE MARIA SANTOS LEMOS ALVES ME<br>Endereço: RIO BRANCO 26, JACARACI, BA</div>`)[0];
+                popup_781b3f6b65aa79218bf3b272504bc61d.setContent(html_d45374ef0f4ef356600747d3817e6a28);
+            
+        
+
+        marker_88d819f187351d849c0090131ab93c60.bindPopup(popup_781b3f6b65aa79218bf3b272504bc61d)
+        ;
+
+        
+    
+    
+            var marker_ec4bf2437c9bea4c833fc6093f04dac4 = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_069c934c713b064f599c5602e4a5847e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0156c7bcc84c3f02ff46becbc59f2108 = $(`<div id="html_0156c7bcc84c3f02ff46becbc59f2108" style="width: 100.0%; height: 100.0%;">Cliente: FRANCISCO COMERCIO DE CALCADOS LTDA<br>Endereço: LAURO DE FREITAS 23, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_069c934c713b064f599c5602e4a5847e.setContent(html_0156c7bcc84c3f02ff46becbc59f2108);
+            
+        
+
+        marker_ec4bf2437c9bea4c833fc6093f04dac4.bindPopup(popup_069c934c713b064f599c5602e4a5847e)
+        ;
+
+        
+    
+    
+            var marker_fbbc2e48bade93dd681ffc32b6d0ce07 = L.marker(
+                [-14.8512651, -40.8420087],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ab4295c478b4674ac073acfca7710e36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d7e1bee3629f2dee62ea072d346e582 = $(`<div id="html_9d7e1bee3629f2dee62ea072d346e582" style="width: 100.0%; height: 100.0%;">Cliente: AUZEENE AVELAR FARIAS ME<br>Endereço: LAUDICEIA GUSMAO 297, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_ab4295c478b4674ac073acfca7710e36.setContent(html_9d7e1bee3629f2dee62ea072d346e582);
+            
+        
+
+        marker_fbbc2e48bade93dd681ffc32b6d0ce07.bindPopup(popup_ab4295c478b4674ac073acfca7710e36)
+        ;
+
+        
+    
+    
+            var marker_85478051504057f4c8a8a05e8b572936 = L.marker(
+                [-14.8447291, -40.857178],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0297b07d653e37c7a81286dd80b1f663 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2da399583f272bf57372345da246ef6e = $(`<div id="html_2da399583f272bf57372345da246ef6e" style="width: 100.0%; height: 100.0%;">Cliente: LENE CALCADOS LTDA ME<br>Endereço: PARAMIRIM 131, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_0297b07d653e37c7a81286dd80b1f663.setContent(html_2da399583f272bf57372345da246ef6e);
+            
+        
+
+        marker_85478051504057f4c8a8a05e8b572936.bindPopup(popup_0297b07d653e37c7a81286dd80b1f663)
+        ;
+
+        
+    
+    
+            var marker_8c37a46042d0501abf3f7ae252773dd5 = L.marker(
+                [-14.793173, -39.2750341],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_489a65afed25e953c70ba7aea8a3c1a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_538d8e0e535e97fd9e371188a7fd5463 = $(`<div id="html_538d8e0e535e97fd9e371188a7fd5463" style="width: 100.0%; height: 100.0%;">Cliente: ESTOQUE COMERCIO DE CALCADOS LTDA ME<br>Endereço: CINQUENTANARIO 458, ITABUNA, BA</div>`)[0];
+                popup_489a65afed25e953c70ba7aea8a3c1a1.setContent(html_538d8e0e535e97fd9e371188a7fd5463);
+            
+        
+
+        marker_8c37a46042d0501abf3f7ae252773dd5.bindPopup(popup_489a65afed25e953c70ba7aea8a3c1a1)
+        ;
+
+        
+    
+    
+            var marker_678f1006bc931f50e4e4e416fea896de = L.marker(
+                [-16.4257989, -39.089074],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_37c91e1608c5746dcd121bccbebe6420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf6a9420d8cdde6f314295bbe44b2547 = $(`<div id="html_cf6a9420d8cdde6f314295bbe44b2547" style="width: 100.0%; height: 100.0%;">Cliente: E D V COMERCIO DE CALCADOS LTDA - ME<br>Endereço: GETULIO VARGAS 50, PORTO SEGURO, BA</div>`)[0];
+                popup_37c91e1608c5746dcd121bccbebe6420.setContent(html_cf6a9420d8cdde6f314295bbe44b2547);
+            
+        
+
+        marker_678f1006bc931f50e4e4e416fea896de.bindPopup(popup_37c91e1608c5746dcd121bccbebe6420)
+        ;
+
+        
+    
+    
+            var marker_278359399068da68bc9a95dc73b9bd20 = L.marker(
+                [-17.0340092, -39.5315525],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_083c39cfaa791b4b89f04080cd18602c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2441517f0b6e753ff2e36b3ae319002d = $(`<div id="html_2441517f0b6e753ff2e36b3ae319002d" style="width: 100.0%; height: 100.0%;">Cliente: EDUARDO BARBOSA FILHO E CIA LTDA - ME<br>Endereço: JOSE DE ANCHIETA 133, ITAMARAJU, BA</div>`)[0];
+                popup_083c39cfaa791b4b89f04080cd18602c.setContent(html_2441517f0b6e753ff2e36b3ae319002d);
+            
+        
+
+        marker_278359399068da68bc9a95dc73b9bd20.bindPopup(popup_083c39cfaa791b4b89f04080cd18602c)
+        ;
+
+        
+    
+    
+            var marker_b3aa293b7765ab059e7263aa6b3fa0c3 = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_457718506cd1e8effe0b7b516b8072ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c04a498065110fb0dfb41f126a040572 = $(`<div id="html_c04a498065110fb0dfb41f126a040572" style="width: 100.0%; height: 100.0%;">Cliente: SUDOESTE CALCADOS LTDA<br>Endereço: LAURO DE FREITAS 164, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_457718506cd1e8effe0b7b516b8072ab.setContent(html_c04a498065110fb0dfb41f126a040572);
+            
+        
+
+        marker_b3aa293b7765ab059e7263aa6b3fa0c3.bindPopup(popup_457718506cd1e8effe0b7b516b8072ab)
+        ;
+
+        
+    
+    
+            var marker_7a2c4c8e6158c26b04d050d2ba05b8e7 = L.marker(
+                [-13.6256329, -41.3257915],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_c3b45ee21fae71b7628640be314565cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5948531774b50fefc6eb1db718e64c = $(`<div id="html_1e5948531774b50fefc6eb1db718e64c" style="width: 100.0%; height: 100.0%;">Cliente: V. FREIRE SANTOS & CIA LTDA - ME<br>Endereço: ROCHAEL ALVES DA SILVA 236 A, BARRA DA ESTIVA, BA</div>`)[0];
+                popup_c3b45ee21fae71b7628640be314565cb.setContent(html_1e5948531774b50fefc6eb1db718e64c);
+            
+        
+
+        marker_7a2c4c8e6158c26b04d050d2ba05b8e7.bindPopup(popup_c3b45ee21fae71b7628640be314565cb)
+        ;
+
+        
+    
+    
+            var marker_c3f596cab6f98418cbc4e6fc25bcdbe3 = L.marker(
+                [-16.3766148, -39.586449],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_320dd20c81abe7e4a82fb9600cfcb627 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ee078f077397995517497bc124b3fcb = $(`<div id="html_0ee078f077397995517497bc124b3fcb" style="width: 100.0%; height: 100.0%;">Cliente: LAGAS MODAS LTDA - ME<br>Endereço: PORTO SEGUTO 474, EUNAPOLIS, BA</div>`)[0];
+                popup_320dd20c81abe7e4a82fb9600cfcb627.setContent(html_0ee078f077397995517497bc124b3fcb);
+            
+        
+
+        marker_c3f596cab6f98418cbc4e6fc25bcdbe3.bindPopup(popup_320dd20c81abe7e4a82fb9600cfcb627)
+        ;
+
+        
+    
+    
+            var marker_eb5f76879cc43c87573e67d23c804136 = L.marker(
+                [-14.9563031, -39.3028641],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ea4e19115cb2b9be043426176341dcd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_270c46a8d3468f16c0376bf32ed28dc5 = $(`<div id="html_270c46a8d3468f16c0376bf32ed28dc5" style="width: 100.0%; height: 100.0%;">Cliente: LANA LAKOPA CALCADOS LTDA - ME<br>Endereço: ARAUJO PINHO 52, ILHEUS, BA</div>`)[0];
+                popup_ea4e19115cb2b9be043426176341dcd2.setContent(html_270c46a8d3468f16c0376bf32ed28dc5);
+            
+        
+
+        marker_eb5f76879cc43c87573e67d23c804136.bindPopup(popup_ea4e19115cb2b9be043426176341dcd2)
+        ;
+
+        
+    
+    
+            var marker_4392a3c7d0346d83b7c37082f9662a5a = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_bb6d936e26110b0525cf429441188fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24dbd94ab0b117b20db199b85c35de49 = $(`<div id="html_24dbd94ab0b117b20db199b85c35de49" style="width: 100.0%; height: 100.0%;">Cliente: ABRAAO CONFECCOES E CALCADOS LTDA - ME<br>Endereço: ALVES PEREIRA 03, JEQUIE, BA</div>`)[0];
+                popup_bb6d936e26110b0525cf429441188fe4.setContent(html_24dbd94ab0b117b20db199b85c35de49);
+            
+        
+
+        marker_4392a3c7d0346d83b7c37082f9662a5a.bindPopup(popup_bb6d936e26110b0525cf429441188fe4)
+        ;
+
+        
+    
+    
+            var marker_7c0954e276fcb91438c8c94055710054 = L.marker(
+                [-17.5378863, -39.7426158],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_84dc62a2a673466eea0bbcb5cf8acb7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e8c1e2bd9a644219e3427358d46376b = $(`<div id="html_2e8c1e2bd9a644219e3427358d46376b" style="width: 100.0%; height: 100.0%;">Cliente: IJR CALCADOS E CONFECCOES LTDA - EPP<br>Endereço: PRINCESA ISABEL 148, TEIXEIRA DE FREITAS, BA</div>`)[0];
+                popup_84dc62a2a673466eea0bbcb5cf8acb7d.setContent(html_2e8c1e2bd9a644219e3427358d46376b);
+            
+        
+
+        marker_7c0954e276fcb91438c8c94055710054.bindPopup(popup_84dc62a2a673466eea0bbcb5cf8acb7d)
+        ;
+
+        
+    
+    
+            var marker_9187eb511896d279ea4a840f217d9dcb = L.marker(
+                [-14.7900134, -39.2740596],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_94a63d460934668c7173143d1d3e5fd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11be6ea00d65f95a4492adc9f4b79a4a = $(`<div id="html_11be6ea00d65f95a4492adc9f4b79a4a" style="width: 100.0%; height: 100.0%;">Cliente: PROGRESSO COMERCIO DE CALCADOS LTDA<br>Endereço: BENIGNO DE AZEVEDO 545, ITABUNA, BA</div>`)[0];
+                popup_94a63d460934668c7173143d1d3e5fd0.setContent(html_11be6ea00d65f95a4492adc9f4b79a4a);
+            
+        
+
+        marker_9187eb511896d279ea4a840f217d9dcb.bindPopup(popup_94a63d460934668c7173143d1d3e5fd0)
+        ;
+
+        
+    
+    
+            var marker_26382b9a68b26639b3c50e51a026cb63 = L.marker(
+                [-14.7900134, -39.2740596],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_87717232b8cfc382bd231d128d774359 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f904e9ef782e453497ad692e7932ae8 = $(`<div id="html_3f904e9ef782e453497ad692e7932ae8" style="width: 100.0%; height: 100.0%;">Cliente: PROGRESSO COMERCIO DE CALCADOS LTDA<br>Endereço: BENIGNO DE AZEVEDO 545, ITABUNA, BA</div>`)[0];
+                popup_87717232b8cfc382bd231d128d774359.setContent(html_3f904e9ef782e453497ad692e7932ae8);
+            
+        
+
+        marker_26382b9a68b26639b3c50e51a026cb63.bindPopup(popup_87717232b8cfc382bd231d128d774359)
+        ;
+
+        
+    
+    
+            var marker_49bfd90a40f1742b6201594833dd4126 = L.marker(
+                [-14.792599, -39.0453843],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9763a6ed0056c35fe9008281040139a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27a3c27cdd3c73fb246626d847cd221c = $(`<div id="html_27a3c27cdd3c73fb246626d847cd221c" style="width: 100.0%; height: 100.0%;">Cliente: TAUANY COMERCIO DE CALCADOS LTDA - ME<br>Endereço: DOM PEDRO II 10, ILHEUS, BA</div>`)[0];
+                popup_9763a6ed0056c35fe9008281040139a5.setContent(html_27a3c27cdd3c73fb246626d847cd221c);
+            
+        
+
+        marker_49bfd90a40f1742b6201594833dd4126.bindPopup(popup_9763a6ed0056c35fe9008281040139a5)
+        ;
+
+        
+    
+    
+            var marker_19164a3b0d88396107c24879a029e232 = L.marker(
+                [-14.7974476, -39.2784539],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_13fa4fa96972d475ef7a2fd696d73f6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebdb5189d072c21949e58ebf7cfd455b = $(`<div id="html_ebdb5189d072c21949e58ebf7cfd455b" style="width: 100.0%; height: 100.0%;">Cliente: GEDEON & SILVEIRA LTDA - ME<br>Endereço: DO CINQUENTENARIO 424, ITABUNA, BA</div>`)[0];
+                popup_13fa4fa96972d475ef7a2fd696d73f6d.setContent(html_ebdb5189d072c21949e58ebf7cfd455b);
+            
+        
+
+        marker_19164a3b0d88396107c24879a029e232.bindPopup(popup_13fa4fa96972d475ef7a2fd696d73f6d)
+        ;
+
+        
+    
+    
+            var marker_ac8dd4daf358390c24f2c7f80012e2c9 = L.marker(
+                [-16.3744746, -39.5855103],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2bb074a9553efe90cfb751a27a7bf28e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8b6ef98e86078aae536bb4f82817eb4 = $(`<div id="html_a8b6ef98e86078aae536bb4f82817eb4" style="width: 100.0%; height: 100.0%;">Cliente: LIRAH CALCADOS E CONFECCOES LTDA - EPP<br>Endereço: AV PORTO SEGURO 362, EUNAPOLIS, BA</div>`)[0];
+                popup_2bb074a9553efe90cfb751a27a7bf28e.setContent(html_a8b6ef98e86078aae536bb4f82817eb4);
+            
+        
+
+        marker_ac8dd4daf358390c24f2c7f80012e2c9.bindPopup(popup_2bb074a9553efe90cfb751a27a7bf28e)
+        ;
+
+        
+    
+    
+            var marker_8c34c14e052768825ea28f17d89e3b0f = L.marker(
+                [-13.2282298, -39.5060149],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_809284b4740386a5e2cb8c5360f8a674 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e7c0c25595f313b568f5a1f5586d0cd = $(`<div id="html_8e7c0c25595f313b568f5a1f5586d0cd" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIAL RABELO MELO LTDA<br>Endereço: MARIA JULIA 54, MUTUIPE, BA</div>`)[0];
+                popup_809284b4740386a5e2cb8c5360f8a674.setContent(html_8e7c0c25595f313b568f5a1f5586d0cd);
+            
+        
+
+        marker_8c34c14e052768825ea28f17d89e3b0f.bindPopup(popup_809284b4740386a5e2cb8c5360f8a674)
+        ;
+
+        
+    
+    
+            var marker_2cf4f087daf51ad0edb3f0edfe5e7175 = L.marker(
+                [-17.3730251, -40.2210616],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_3c0b294fa1bb6cd5db3511e858121197 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36234335c884a1da81d8aba6b8253b64 = $(`<div id="html_36234335c884a1da81d8aba6b8253b64" style="width: 100.0%; height: 100.0%;">Cliente: ISAIAS OLIVEIRA ALVES - ME<br>Endereço: TEIXEIRA DE FREITAS 89, MEDEIROS NETO, BA</div>`)[0];
+                popup_3c0b294fa1bb6cd5db3511e858121197.setContent(html_36234335c884a1da81d8aba6b8253b64);
+            
+        
+
+        marker_2cf4f087daf51ad0edb3f0edfe5e7175.bindPopup(popup_3c0b294fa1bb6cd5db3511e858121197)
+        ;
+
+        
+    
+    
+            var marker_23622a8fda1ae7575e85eb7fc73dc941 = L.marker(
+                [-14.226048, -42.7787561],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0640aea705912e4e96b203db91c06bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fae122334bbc5fd673fcafd00dc3f3fd = $(`<div id="html_fae122334bbc5fd673fcafd00dc3f3fd" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIAL DE CALCADOS BEIJA FLOR LTDA - EPP<br>Endereço: GERCINO COELHO 20, GUANAMBI, BA</div>`)[0];
+                popup_0640aea705912e4e96b203db91c06bb4.setContent(html_fae122334bbc5fd673fcafd00dc3f3fd);
+            
+        
+
+        marker_23622a8fda1ae7575e85eb7fc73dc941.bindPopup(popup_0640aea705912e4e96b203db91c06bb4)
+        ;
+
+        
+    
+    
+            var marker_14e0f0ee327dd94d2870fe84e7f26465 = L.marker(
+                [-14.8512651, -40.8420087],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_09169b7eae43a098b9c3d6bb20565e9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70e5336314a24fe5600ebd4bc58ec5aa = $(`<div id="html_70e5336314a24fe5600ebd4bc58ec5aa" style="width: 100.0%; height: 100.0%;">Cliente: FERNANDO SILVA MOREIRA EIRELI<br>Endereço: LAUDICEIA GUSMAO 287, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_09169b7eae43a098b9c3d6bb20565e9c.setContent(html_70e5336314a24fe5600ebd4bc58ec5aa);
+            
+        
+
+        marker_14e0f0ee327dd94d2870fe84e7f26465.bindPopup(popup_09169b7eae43a098b9c3d6bb20565e9c)
+        ;
+
+        
+    
+    
+            var marker_2307b161f9ac57ca825d963edda9fb77 = L.marker(
+                [-14.8751667, -40.8582779],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0d4614eea198834eb3e65d40843c65b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93915991d89084d2f7cdf3d3150f2387 = $(`<div id="html_93915991d89084d2f7cdf3d3150f2387" style="width: 100.0%; height: 100.0%;">Cliente: VANEIDE ALVES SOUSA 74595520549<br>Endereço: CAXIAS DO SUL 233, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_0d4614eea198834eb3e65d40843c65b0.setContent(html_93915991d89084d2f7cdf3d3150f2387);
+            
+        
+
+        marker_2307b161f9ac57ca825d963edda9fb77.bindPopup(popup_0d4614eea198834eb3e65d40843c65b0)
+        ;
+
+        
+    
+    
+            var marker_69729ea984ed1d0920e96d951b760121 = L.marker(
+                [-15.1440571, -39.7250323],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_b443eef7abd28bdcc19931bb3dbf197c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac343b0b67776df7421689da2025fb93 = $(`<div id="html_ac343b0b67776df7421689da2025fb93" style="width: 100.0%; height: 100.0%;">Cliente: J SILVA CALCADOS - ME<br>Endereço: ESTADO DE SERGIPE 40, ITAJU DO COLONIA, BA</div>`)[0];
+                popup_b443eef7abd28bdcc19931bb3dbf197c.setContent(html_ac343b0b67776df7421689da2025fb93);
+            
+        
+
+        marker_69729ea984ed1d0920e96d951b760121.bindPopup(popup_b443eef7abd28bdcc19931bb3dbf197c)
+        ;
+
+        
+    
+    
+            var marker_e6b2bfdce8f60fa4194bac67d816186a = L.marker(
+                [-14.6627814, -41.4914419],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_61a24304d18d6eb81ab8b3b66d456e40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53593bcc4824b49ba00a4ec1402fb995 = $(`<div id="html_53593bcc4824b49ba00a4ec1402fb995" style="width: 100.0%; height: 100.0%;">Cliente: EDVALDO LIMA SOUSA<br>Endereço: PLINIO ALVES COSTA 03, MAETINGA, BA</div>`)[0];
+                popup_61a24304d18d6eb81ab8b3b66d456e40.setContent(html_53593bcc4824b49ba00a4ec1402fb995);
+            
+        
+
+        marker_e6b2bfdce8f60fa4194bac67d816186a.bindPopup(popup_61a24304d18d6eb81ab8b3b66d456e40)
+        ;
+
+        
+    
+    
+            var marker_f8ae3ce944fc22de19e81191325b22b7 = L.marker(
+                [-14.3139322, -39.3246811],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7c630a0454c5c71c0cd41a7c0d289abc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_794cbdbfe7effa1590dc2cd8b8fac649 = $(`<div id="html_794cbdbfe7effa1590dc2cd8b8fac649" style="width: 100.0%; height: 100.0%;">Cliente: E DE J SANTOS DE UBAITABA - ME<br>Endereço: 27 DE JULHO 90, UBAITABA, BA</div>`)[0];
+                popup_7c630a0454c5c71c0cd41a7c0d289abc.setContent(html_794cbdbfe7effa1590dc2cd8b8fac649);
+            
+        
+
+        marker_f8ae3ce944fc22de19e81191325b22b7.bindPopup(popup_7c630a0454c5c71c0cd41a7c0d289abc)
+        ;
+
+        
+    
+    
+            var marker_37d4ad5d84824baf68a72effc1607f23 = L.marker(
+                [-14.3139322, -39.3246811],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_dbc5315336b240bd1e4bf4a79dbb80f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73c86151cfd8c8cbdbe38d6745399e3a = $(`<div id="html_73c86151cfd8c8cbdbe38d6745399e3a" style="width: 100.0%; height: 100.0%;">Cliente: E DE J SANTOS DE UBAITABA - ME<br>Endereço: 27 DE JULHO 90, UBAITABA, BA</div>`)[0];
+                popup_dbc5315336b240bd1e4bf4a79dbb80f6.setContent(html_73c86151cfd8c8cbdbe38d6745399e3a);
+            
+        
+
+        marker_37d4ad5d84824baf68a72effc1607f23.bindPopup(popup_dbc5315336b240bd1e4bf4a79dbb80f6)
+        ;
+
+        
+    
+    
+            var marker_48df52fa191940f1258a1855f04f01fe = L.marker(
+                [-13.4524225, -39.9398853],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9dcb33aa8e5e0e4fa90e0444de49e3b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2e8388ae0365c00df45cb5d2af638f4 = $(`<div id="html_e2e8388ae0365c00df45cb5d2af638f4" style="width: 100.0%; height: 100.0%;">Cliente: RITA DE CASCIA DA SILVA TRINDADE SANTOS<br>Endereço: GOES CALMON 43, ITAQUARA, BA</div>`)[0];
+                popup_9dcb33aa8e5e0e4fa90e0444de49e3b2.setContent(html_e2e8388ae0365c00df45cb5d2af638f4);
+            
+        
+
+        marker_48df52fa191940f1258a1855f04f01fe.bindPopup(popup_9dcb33aa8e5e0e4fa90e0444de49e3b2)
+        ;
+
+        
+    
+    
+            var marker_5589296fa1c7078ccdca3bf34a38525e = L.marker(
+                [-14.8513678, -40.8397624],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ee5c0a6743bc6d7b718a085eaed31136 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d4754ad506ff3a9f96a69d3587179e8 = $(`<div id="html_5d4754ad506ff3a9f96a69d3587179e8" style="width: 100.0%; height: 100.0%;">Cliente: TERRITORIO COM DE CALCADOS E ACESSORIOS EIRELI<br>Endereço: RAMIRO SANTOS 17, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_ee5c0a6743bc6d7b718a085eaed31136.setContent(html_5d4754ad506ff3a9f96a69d3587179e8);
+            
+        
+
+        marker_5589296fa1c7078ccdca3bf34a38525e.bindPopup(popup_ee5c0a6743bc6d7b718a085eaed31136)
+        ;
+
+        
+    
+    
+            var marker_93038e19c0060f55592408195ec4e882 = L.marker(
+                [-14.5292166, -40.3658019],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7ce585839b52dcfba1ffc6fcc34a02e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c1a1b63da49ad806e88c42ae37c6b57 = $(`<div id="html_1c1a1b63da49ad806e88c42ae37c6b57" style="width: 100.0%; height: 100.0%;">Cliente: J R CONFECCOES E CALCADOS LTDA - EPP<br>Endereço: CEL RAIMUNDO PEREIRA MAGALHAES 168, POCOES, BA</div>`)[0];
+                popup_7ce585839b52dcfba1ffc6fcc34a02e1.setContent(html_1c1a1b63da49ad806e88c42ae37c6b57);
+            
+        
+
+        marker_93038e19c0060f55592408195ec4e882.bindPopup(popup_7ce585839b52dcfba1ffc6fcc34a02e1)
+        ;
+
+        
+    
+    
+            var marker_6abb790eec3c3a4596f2dc6c8a5db137 = L.marker(
+                [-13.2282298, -39.5060149],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_1a0d3ae5ae5b5ba7437b4a4ed2667765 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ffcdeeccd5effad4d51f34918c90a11 = $(`<div id="html_7ffcdeeccd5effad4d51f34918c90a11" style="width: 100.0%; height: 100.0%;">Cliente: VESTPE CALCADOS LTDA<br>Endereço: ARLINDO VAZ DOS SANTOS 18, MUTUIPE, BA</div>`)[0];
+                popup_1a0d3ae5ae5b5ba7437b4a4ed2667765.setContent(html_7ffcdeeccd5effad4d51f34918c90a11);
+            
+        
+
+        marker_6abb790eec3c3a4596f2dc6c8a5db137.bindPopup(popup_1a0d3ae5ae5b5ba7437b4a4ed2667765)
+        ;
+
+        
+    
+    
+            var marker_b9f627f122c30b317ff7fb697258f6e0 = L.marker(
+                [-14.6627814, -41.4914419],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_6264b5dd0eac524b3dae3f84ee335afa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6c7b58325747a1086e69ac1649b056f = $(`<div id="html_f6c7b58325747a1086e69ac1649b056f" style="width: 100.0%; height: 100.0%;">Cliente: IVANI VIANA ALVES<br>Endereço: SEBASTIAO LIMA 14, MAETINGA, BA</div>`)[0];
+                popup_6264b5dd0eac524b3dae3f84ee335afa.setContent(html_f6c7b58325747a1086e69ac1649b056f);
+            
+        
+
+        marker_b9f627f122c30b317ff7fb697258f6e0.bindPopup(popup_6264b5dd0eac524b3dae3f84ee335afa)
+        ;
+
+        
+    
+    
+            var marker_65b34d3aeb06011b6bd42c368672c9ce = L.marker(
+                [-14.3139322, -39.3246811],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_f936a68f0643d6754cb3d859d4368e9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b763568d39f304acabdbfdb00c8ba80 = $(`<div id="html_8b763568d39f304acabdbfdb00c8ba80" style="width: 100.0%; height: 100.0%;">Cliente: J A SANTOS E SANTOS CONFECCOES<br>Endereço: 27 DE JULHO 20, UBAITABA, BA</div>`)[0];
+                popup_f936a68f0643d6754cb3d859d4368e9e.setContent(html_8b763568d39f304acabdbfdb00c8ba80);
+            
+        
+
+        marker_65b34d3aeb06011b6bd42c368672c9ce.bindPopup(popup_f936a68f0643d6754cb3d859d4368e9e)
+        ;
+
+        
+    
+    
+            var marker_3e0ed0607e2bfd6c1428a2b20ee602cc = L.marker(
+                [-14.7974476, -39.2784539],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ea6644ad44681777135819a97ea68d80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b61d9c710dd1af587678fcb08ee8049f = $(`<div id="html_b61d9c710dd1af587678fcb08ee8049f" style="width: 100.0%; height: 100.0%;">Cliente: EXITU COMERCIO DE CALCADOS LTDA<br>Endereço: CINQUENTENARIO 509, ITABUNA, BA</div>`)[0];
+                popup_ea6644ad44681777135819a97ea68d80.setContent(html_b61d9c710dd1af587678fcb08ee8049f);
+            
+        
+
+        marker_3e0ed0607e2bfd6c1428a2b20ee602cc.bindPopup(popup_ea6644ad44681777135819a97ea68d80)
+        ;
+
+        
+    
+    
+            var marker_af1d29b251af1616a9ddaf144355782a = L.marker(
+                [-14.2805048, -38.9902301],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_83febba45f3e074e5d0ba0643ceb8e11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d44728143a068894af684f35e2065b1d = $(`<div id="html_d44728143a068894af684f35e2065b1d" style="width: 100.0%; height: 100.0%;">Cliente: FAROL DA BARRA 2 COM DE PRODUTOS DO VESTUARIO LTDA<br>Endereço: PEDRO LONGO 100, ITACARE, BA</div>`)[0];
+                popup_83febba45f3e074e5d0ba0643ceb8e11.setContent(html_d44728143a068894af684f35e2065b1d);
+            
+        
+
+        marker_af1d29b251af1616a9ddaf144355782a.bindPopup(popup_83febba45f3e074e5d0ba0643ceb8e11)
+        ;
+
+        
+    
+    
+            var marker_89e21c1dffa4342eb229e9f0a0139515 = L.marker(
+                [-13.8624916, -40.0784479],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_41d2d77a90730fb08d29f556197f4bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_045bdcdf8123f5e1ec5db7bcdb1781f4 = $(`<div id="html_045bdcdf8123f5e1ec5db7bcdb1781f4" style="width: 100.0%; height: 100.0%;">Cliente: BEMVINDA CALCADOS E CONFECCOES LTDA<br>Endereço: ALVES PEREIRA 11, JEQUIE, BA</div>`)[0];
+                popup_41d2d77a90730fb08d29f556197f4bd0.setContent(html_045bdcdf8123f5e1ec5db7bcdb1781f4);
+            
+        
+
+        marker_89e21c1dffa4342eb229e9f0a0139515.bindPopup(popup_41d2d77a90730fb08d29f556197f4bd0)
+        ;
+
+        
+    
+    
+            var marker_c0ce2054be118c54dc84b4e64b871cfe = L.marker(
+                [-13.5474243, -42.4907587],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_df4b64d6d70f69448997e98acb7ef183 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b29fc9c89ed81a38149cf694f8646415 = $(`<div id="html_b29fc9c89ed81a38149cf694f8646415" style="width: 100.0%; height: 100.0%;">Cliente: D M DANTAS EIRELI<br>Endereço: DO COMERCIO S/N, TANQUE NOVO, BA</div>`)[0];
+                popup_df4b64d6d70f69448997e98acb7ef183.setContent(html_b29fc9c89ed81a38149cf694f8646415);
+            
+        
+
+        marker_c0ce2054be118c54dc84b4e64b871cfe.bindPopup(popup_df4b64d6d70f69448997e98acb7ef183)
+        ;
+
+        
+    
+    
+            var marker_5215ee4b9a82bd855eefb3c28c6fef3b = L.marker(
+                [-14.8625311, -39.5890865],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_c26006ad951ed075ca9a0ccd6ad3282f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aabe80e820a239deb12f7791c66b6ab7 = $(`<div id="html_aabe80e820a239deb12f7791c66b6ab7" style="width: 100.0%; height: 100.0%;">Cliente: T S SOARES DE IBICARAI<br>Endereço: HENRIQUE SAMPAIO 1 A, IBICARAI, BA</div>`)[0];
+                popup_c26006ad951ed075ca9a0ccd6ad3282f.setContent(html_aabe80e820a239deb12f7791c66b6ab7);
+            
+        
+
+        marker_5215ee4b9a82bd855eefb3c28c6fef3b.bindPopup(popup_c26006ad951ed075ca9a0ccd6ad3282f)
+        ;
+
+        
+    
+    
+            var marker_b2d593290c2d6cab748e7407b2599509 = L.marker(
+                [-14.8505194, -40.8419484],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_6d07dc772050c6905c301a36d56d5b4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c993cd04b1e068cc6da065e542880050 = $(`<div id="html_c993cd04b1e068cc6da065e542880050" style="width: 100.0%; height: 100.0%;">Cliente: JULIANA DIAS LOPES ANDRADE<br>Endereço: DA BANDEIRA 104, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_6d07dc772050c6905c301a36d56d5b4c.setContent(html_c993cd04b1e068cc6da065e542880050);
+            
+        
+
+        marker_b2d593290c2d6cab748e7407b2599509.bindPopup(popup_6d07dc772050c6905c301a36d56d5b4c)
+        ;
+
+        
+    
+    
+            var marker_7fcc89b0c65e27964c6ecec824554ac8 = L.marker(
+                [-16.4257989, -39.089074],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_d3c1a807557c3a983a35bf1eac9e9649 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18033acc1c2c2643a81b54830a2cced3 = $(`<div id="html_18033acc1c2c2643a81b54830a2cced3" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIO DE CALCADOS GT LTDA<br>Endereço: GETULIO VARGAS 240, PORTO SEGURO, BA</div>`)[0];
+                popup_d3c1a807557c3a983a35bf1eac9e9649.setContent(html_18033acc1c2c2643a81b54830a2cced3);
+            
+        
+
+        marker_7fcc89b0c65e27964c6ecec824554ac8.bindPopup(popup_d3c1a807557c3a983a35bf1eac9e9649)
+        ;
+
+        
+    
+    
+            var marker_bbc6a48199f5f0918e2b9cda1d42a1d0 = L.marker(
+                [-14.8513678, -40.8397624],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_69e939cbe633f6057a25b7c9ed8966a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eae1780ff2076b4289103e639d9d778 = $(`<div id="html_3eae1780ff2076b4289103e639d9d778" style="width: 100.0%; height: 100.0%;">Cliente: VITORIA DA CONQUISTA CALCADOS E CONFECCOES LTDA<br>Endereço: RAMIRO SANTOS 08, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_69e939cbe633f6057a25b7c9ed8966a4.setContent(html_3eae1780ff2076b4289103e639d9d778);
+            
+        
+
+        marker_bbc6a48199f5f0918e2b9cda1d42a1d0.bindPopup(popup_69e939cbe633f6057a25b7c9ed8966a4)
+        ;
+
+        
+    
+    
+            var marker_d07df7c9d18208f8e789a1369bbaee4f = L.marker(
+                [-14.8513678, -40.8397624],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_c5e7b26d7df0bb4c4a33c076ed29f8a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bedd4816c94940298dd06276b009d57 = $(`<div id="html_6bedd4816c94940298dd06276b009d57" style="width: 100.0%; height: 100.0%;">Cliente: VITORIA DA CONQUISTA CALCADOS E CONFECCOES LTDA<br>Endereço: RAMIRO SANTOS 08, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_c5e7b26d7df0bb4c4a33c076ed29f8a2.setContent(html_6bedd4816c94940298dd06276b009d57);
+            
+        
+
+        marker_d07df7c9d18208f8e789a1369bbaee4f.bindPopup(popup_c5e7b26d7df0bb4c4a33c076ed29f8a2)
+        ;
+
+        
+    
+    
+            var marker_2fa799f7f236f4fdcbf6d23f2fe3ca2e = L.marker(
+                [-17.5391054, -39.7424392],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_365fa9e139c7727a441948e88a6b70e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8c213f6983c0a9cd61e0a4d8cead3fa = $(`<div id="html_f8c213f6983c0a9cd61e0a4d8cead3fa" style="width: 100.0%; height: 100.0%;">Cliente: CALCADOS ESTRELA DO SUL EIRELI<br>Endereço: ZILDA ARNS NEUMANN 42, TEIXEIRA DE FREITAS, BA</div>`)[0];
+                popup_365fa9e139c7727a441948e88a6b70e6.setContent(html_f8c213f6983c0a9cd61e0a4d8cead3fa);
+            
+        
+
+        marker_2fa799f7f236f4fdcbf6d23f2fe3ca2e.bindPopup(popup_365fa9e139c7727a441948e88a6b70e6)
+        ;
+
+        
+    
+    
+            var marker_7383998049ed937ff85b93b5f01392d7 = L.marker(
+                [-15.2457715, -40.2455799],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0eaeefa963e10a6ee322485dc64ce4ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad8bcc36a66465e2d9e2ee1aa283528d = $(`<div id="html_ad8bcc36a66465e2d9e2ee1aa283528d" style="width: 100.0%; height: 100.0%;">Cliente: ALICE CALCADOS E CONFECCOES LTDA<br>Endereço: JOSE BONIFACIO 61, ITAPETINGA, BA</div>`)[0];
+                popup_0eaeefa963e10a6ee322485dc64ce4ab.setContent(html_ad8bcc36a66465e2d9e2ee1aa283528d);
+            
+        
+
+        marker_7383998049ed937ff85b93b5f01392d7.bindPopup(popup_0eaeefa963e10a6ee322485dc64ce4ab)
+        ;
+
+        
+    
+    
+            var marker_0faa8ccabce4d3f8288af9c1ec06569c = L.marker(
+                [-14.8512781, -40.8401003],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ff54454853247351aaf0612f737137b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee823da737050e738f0330b3066fef64 = $(`<div id="html_ee823da737050e738f0330b3066fef64" style="width: 100.0%; height: 100.0%;">Cliente: JOAO DA SILVA ANDRADE<br>Endereço: DANTE MENEZES 02, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_ff54454853247351aaf0612f737137b3.setContent(html_ee823da737050e738f0330b3066fef64);
+            
+        
+
+        marker_0faa8ccabce4d3f8288af9c1ec06569c.bindPopup(popup_ff54454853247351aaf0612f737137b3)
+        ;
+
+        
+    
+    
+            var marker_deb1a6c1e02ed9bb284095af5abd2e73 = L.marker(
+                [-14.8512781, -40.8401003],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7017727503ee287c5db953b94791f31c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca08de9034bf0d17ef64b2fc0c8c18cf = $(`<div id="html_ca08de9034bf0d17ef64b2fc0c8c18cf" style="width: 100.0%; height: 100.0%;">Cliente: JOAO DA SILVA ANDRADE<br>Endereço: DANTE MENEZES 02, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_7017727503ee287c5db953b94791f31c.setContent(html_ca08de9034bf0d17ef64b2fc0c8c18cf);
+            
+        
+
+        marker_deb1a6c1e02ed9bb284095af5abd2e73.bindPopup(popup_7017727503ee287c5db953b94791f31c)
+        ;
+
+        
+    
+    
+            var marker_8befd16613704b6011231361d3799f89 = L.marker(
+                [-13.6269662, -41.3278287],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_3baa7c57e538805ffed7a5628c2aa1b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3be8122a46682b996cbc765b924f76a0 = $(`<div id="html_3be8122a46682b996cbc765b924f76a0" style="width: 100.0%; height: 100.0%;">Cliente: EDIMARIO DO PRADO BARROS<br>Endereço: RUI BARBOSA 30, BARRA DA ESTIVA, BA</div>`)[0];
+                popup_3baa7c57e538805ffed7a5628c2aa1b1.setContent(html_3be8122a46682b996cbc765b924f76a0);
+            
+        
+
+        marker_8befd16613704b6011231361d3799f89.bindPopup(popup_3baa7c57e538805ffed7a5628c2aa1b1)
+        ;
+
+        
+    
+    
+            var marker_7551b1ad0e30d7e1b62e781b760422fb = L.marker(
+                [-14.9436537, -41.7169882],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_b9e4671318d9ac53efc609afdf7381af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24145692919234af066293aa0ff3a202 = $(`<div id="html_24145692919234af066293aa0ff3a202" style="width: 100.0%; height: 100.0%;">Cliente: DETIANE DE SOUZA ARAUJO BRITO CALCADOS<br>Endereço: OLIVEIRA BRITO 48, PIRIPA, BA</div>`)[0];
+                popup_b9e4671318d9ac53efc609afdf7381af.setContent(html_24145692919234af066293aa0ff3a202);
+            
+        
+
+        marker_7551b1ad0e30d7e1b62e781b760422fb.bindPopup(popup_b9e4671318d9ac53efc609afdf7381af)
+        ;
+
+        
+    
+    
+            var marker_2f6e781e67591fb3396696103ba6664f = L.marker(
+                [-13.8567161, -39.7448557],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7166c896b6f339a1c796978cd5d0b090 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c65c4ff848a2a8c97c2ef4b492cb664d = $(`<div id="html_c65c4ff848a2a8c97c2ef4b492cb664d" style="width: 100.0%; height: 100.0%;">Cliente: DANY MODAS LTDA<br>Endereço: OTACILIO PINHEIRO 115, APUAREMA, BA</div>`)[0];
+                popup_7166c896b6f339a1c796978cd5d0b090.setContent(html_c65c4ff848a2a8c97c2ef4b492cb664d);
+            
+        
+
+        marker_2f6e781e67591fb3396696103ba6664f.bindPopup(popup_7166c896b6f339a1c796978cd5d0b090)
+        ;
+
+        
+    
+    
+            var marker_e3ddc6573c525a1602f4d6d9ed155255 = L.marker(
+                [-14.0675488, -42.490276305346725],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_61d2ec9a188ec72e8d9d0d1bdafc0bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b94891d2e95ac13c6e034df1740811b2 = $(`<div id="html_b94891d2e95ac13c6e034df1740811b2" style="width: 100.0%; height: 100.0%;">Cliente: VALENTIN CALCADOS LTDA<br>Endereço: RUI BARBOSA 480, CAETITE, BA</div>`)[0];
+                popup_61d2ec9a188ec72e8d9d0d1bdafc0bb5.setContent(html_b94891d2e95ac13c6e034df1740811b2);
+            
+        
+
+        marker_e3ddc6573c525a1602f4d6d9ed155255.bindPopup(popup_61d2ec9a188ec72e8d9d0d1bdafc0bb5)
+        ;
+
+        
+    
+    
+            var marker_dd1f483ed08be8368039e5c4e97ede07 = L.marker(
+                [-13.5294974, -39.9693081],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ca9bff7d3b95a9150392cdd0acbceb5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53994f209a2bf451d138fa26065e4ed7 = $(`<div id="html_53994f209a2bf451d138fa26065e4ed7" style="width: 100.0%; height: 100.0%;">Cliente: JAGUAQUARA CALCADOS E CONFECCOES LTDA<br>Endereço: GOMES PITA 70, JAGUAQUARA, BA</div>`)[0];
+                popup_ca9bff7d3b95a9150392cdd0acbceb5a.setContent(html_53994f209a2bf451d138fa26065e4ed7);
+            
+        
+
+        marker_dd1f483ed08be8368039e5c4e97ede07.bindPopup(popup_ca9bff7d3b95a9150392cdd0acbceb5a)
+        ;
+
+        
+    
+    
+            var marker_42c9540667299f8acfb7044c0379135e = L.marker(
+                [-14.781376, -39.1026726],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_a9a9ce10f0ce9dc2b26bfd0ff391e06d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee7f811f127c6f4a1ab8ac033e9b9497 = $(`<div id="html_ee7f811f127c6f4a1ab8ac033e9b9497" style="width: 100.0%; height: 100.0%;">Cliente: NICHOLAS COMERCIO DE CALCADOS LTDA<br>Endereço: JORGE AMADO 87, ILHEUS, BA</div>`)[0];
+                popup_a9a9ce10f0ce9dc2b26bfd0ff391e06d.setContent(html_ee7f811f127c6f4a1ab8ac033e9b9497);
+            
+        
+
+        marker_42c9540667299f8acfb7044c0379135e.bindPopup(popup_a9a9ce10f0ce9dc2b26bfd0ff391e06d)
+        ;
+
+        
+    
+    
+            var marker_5456313b8eff2cff5f3024cf6d74af6a = L.marker(
+                [-16.5117691, -39.1013209],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_3118faf06e793ad543a71c5e6d0d790f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16b874b6e8557f646cd5cee67dfea634 = $(`<div id="html_16b874b6e8557f646cd5cee67dfea634" style="width: 100.0%; height: 100.0%;">Cliente: EDNA PEREIRA DE BRITO<br>Endereço: PEDRA AZUL 163, PORTO SEGURO, BA</div>`)[0];
+                popup_3118faf06e793ad543a71c5e6d0d790f.setContent(html_16b874b6e8557f646cd5cee67dfea634);
+            
+        
+
+        marker_5456313b8eff2cff5f3024cf6d74af6a.bindPopup(popup_3118faf06e793ad543a71c5e6d0d790f)
+        ;
+
+        
+    
+    
+            var marker_d30c899d8b792986bcdbb1964e7dc414 = L.marker(
+                [-14.8769832, -40.8566244],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_56fb6d384f86fd42f79216cf3803c27f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acfd87876491b62fd18a697104115f4f = $(`<div id="html_acfd87876491b62fd18a697104115f4f" style="width: 100.0%; height: 100.0%;">Cliente: D M DANTAS EIRELI<br>Endereço: FREI BENJAMIM 363, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_56fb6d384f86fd42f79216cf3803c27f.setContent(html_acfd87876491b62fd18a697104115f4f);
+            
+        
+
+        marker_d30c899d8b792986bcdbb1964e7dc414.bindPopup(popup_56fb6d384f86fd42f79216cf3803c27f)
+        ;
+
+        
+    
+    
+            var marker_ee58886339fc858aa36b0f6b1398ccaf = L.marker(
+                [-13.5294974, -39.9693081],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0782bd3858c4840fafbee89a116608db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06c73dd337f7c272b7ce62a9033b831d = $(`<div id="html_06c73dd337f7c272b7ce62a9033b831d" style="width: 100.0%; height: 100.0%;">Cliente: LOYOLAS CALCADOS E CONFECCOES EIRELI<br>Endereço: GOMES PITA 53, JAGUAQUARA, BA</div>`)[0];
+                popup_0782bd3858c4840fafbee89a116608db.setContent(html_06c73dd337f7c272b7ce62a9033b831d);
+            
+        
+
+        marker_ee58886339fc858aa36b0f6b1398ccaf.bindPopup(popup_0782bd3858c4840fafbee89a116608db)
+        ;
+
+        
+    
+    
+            var marker_1c42e94dcdc7b6c887dc112e4dd3b363 = L.marker(
+                [-13.1809956, -39.4222968],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0d41e3aa743f2571867364c729c026ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16378c873799c7d17de649a14a4b9fdb = $(`<div id="html_16378c873799c7d17de649a14a4b9fdb" style="width: 100.0%; height: 100.0%;">Cliente: CCR COMERCIO VAREJISTA DE CALCADOS LTDA<br>Endereço: 15 DE NOVEMBRO S/N, LAJE, BA</div>`)[0];
+                popup_0d41e3aa743f2571867364c729c026ba.setContent(html_16378c873799c7d17de649a14a4b9fdb);
+            
+        
+
+        marker_1c42e94dcdc7b6c887dc112e4dd3b363.bindPopup(popup_0d41e3aa743f2571867364c729c026ba)
+        ;
+
+        
+    
+    
+            var marker_e3b61e8db8febb942e1e2f7085a86f96 = L.marker(
+                [-14.2084756, -41.6664303],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7a3c4b9ec223c81d821d0fac881e47aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bfbf1d8e0601d08aac7052ce0ed1d29 = $(`<div id="html_5bfbf1d8e0601d08aac7052ce0ed1d29" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIO DE CALCADOS VARZEA BRUMADO LTDA<br>Endereço: CEL TIBERIO MEIRA 298, BRUMADO, BA</div>`)[0];
+                popup_7a3c4b9ec223c81d821d0fac881e47aa.setContent(html_5bfbf1d8e0601d08aac7052ce0ed1d29);
+            
+        
+
+        marker_e3b61e8db8febb942e1e2f7085a86f96.bindPopup(popup_7a3c4b9ec223c81d821d0fac881e47aa)
+        ;
+
+        
+    
+    
+            var marker_0582b6631c55ae131f89dd24aad058f1 = L.marker(
+                [-14.8098196, -39.2931175],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5eef2f0df9ff6b78e5a5d71a06402270 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c07de4aa54344b3bf24651c26a34df2 = $(`<div id="html_3c07de4aa54344b3bf24651c26a34df2" style="width: 100.0%; height: 100.0%;">Cliente: M.A.S CALCADOS EIRELI<br>Endereço: LOMANTO JUNIOR 786, ILHEUS, BA</div>`)[0];
+                popup_5eef2f0df9ff6b78e5a5d71a06402270.setContent(html_3c07de4aa54344b3bf24651c26a34df2);
+            
+        
+
+        marker_0582b6631c55ae131f89dd24aad058f1.bindPopup(popup_5eef2f0df9ff6b78e5a5d71a06402270)
+        ;
+
+        
+    
+    
+            var marker_59670c03dc4dd78b6a1dd3b195a05c12 = L.marker(
+                [-16.4257989, -39.089074],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_59147047bd7c389aa6311284f5566e68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5545618b9e8f03b40b56c43420e13889 = $(`<div id="html_5545618b9e8f03b40b56c43420e13889" style="width: 100.0%; height: 100.0%;">Cliente: BRISAS COMERCIO DE CALCADOS LTDA<br>Endereço: GETULIO VARGAS 138, PORTO SEGURO, BA</div>`)[0];
+                popup_59147047bd7c389aa6311284f5566e68.setContent(html_5545618b9e8f03b40b56c43420e13889);
+            
+        
+
+        marker_59670c03dc4dd78b6a1dd3b195a05c12.bindPopup(popup_59147047bd7c389aa6311284f5566e68)
+        ;
+
+        
+    
+    
+            var marker_91215fd1922c5cbe2ee1053a9acef252 = L.marker(
+                [-17.0265832, -39.5384458],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2a2b4847eca74eb753e62a2f18239476 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcadb1b50540e0c22a89447a86881c4e = $(`<div id="html_fcadb1b50540e0c22a89447a86881c4e" style="width: 100.0%; height: 100.0%;">Cliente: ITAMARAJU CALCADOS E CONFECCOES LTDA<br>Endereço: ANTONIO CARLOS MAGALHAES 92, ITAMARAJU, BA</div>`)[0];
+                popup_2a2b4847eca74eb753e62a2f18239476.setContent(html_fcadb1b50540e0c22a89447a86881c4e);
+            
+        
+
+        marker_91215fd1922c5cbe2ee1053a9acef252.bindPopup(popup_2a2b4847eca74eb753e62a2f18239476)
+        ;
+
+        
+    
+    
+            var marker_cbfdab56bd55d05ebd11bf0c210a9d4d = L.marker(
+                [-13.0302189, -39.6040692],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_ad32d98c7bd9f06a51d030339661c46c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c36bb6d51aa62620531f4257c7ca6488 = $(`<div id="html_c36bb6d51aa62620531f4257c7ca6488" style="width: 100.0%; height: 100.0%;">Cliente: REIS & CERQUEIRA CALC E ACESS MULTIMARCAS LTDA<br>Endereço: DR LUIS SANDES 100, AMARGOSA, BA</div>`)[0];
+                popup_ad32d98c7bd9f06a51d030339661c46c.setContent(html_c36bb6d51aa62620531f4257c7ca6488);
+            
+        
+
+        marker_cbfdab56bd55d05ebd11bf0c210a9d4d.bindPopup(popup_ad32d98c7bd9f06a51d030339661c46c)
+        ;
+
+        
+    
+    
+            var marker_f177c107273f538426c66e7ebd538b06 = L.marker(
+                [-16.443473, -39.064251],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_728913d766d786103ccd25e0fe51ef54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_546154f42438a0ac2bf7d216049e24da = $(`<div id="html_546154f42438a0ac2bf7d216049e24da" style="width: 100.0%; height: 100.0%;">Cliente: EXTREMO SUL CALCADOS LTDA<br>Endereço: INAIA 44, PORTO SEGURO, BA</div>`)[0];
+                popup_728913d766d786103ccd25e0fe51ef54.setContent(html_546154f42438a0ac2bf7d216049e24da);
+            
+        
+
+        marker_f177c107273f538426c66e7ebd538b06.bindPopup(popup_728913d766d786103ccd25e0fe51ef54)
+        ;
+
+        
+    
+    
+            var marker_7ffb63dd221e9e230a7894b5bbbe37ae = L.marker(
+                [-14.2103281, -41.6712062],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_bef1eab67686d86695f86a7cf186dbdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4d08ea7ec006356d83bbb1ee552bc3e = $(`<div id="html_e4d08ea7ec006356d83bbb1ee552bc3e" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIO DE CALCADOS GOMES E GONCALVES LTDA<br>Endereço: DR ANTONIO MOURAO GUIMARAES 590, BRUMADO, BA</div>`)[0];
+                popup_bef1eab67686d86695f86a7cf186dbdc.setContent(html_e4d08ea7ec006356d83bbb1ee552bc3e);
+            
+        
+
+        marker_7ffb63dd221e9e230a7894b5bbbe37ae.bindPopup(popup_bef1eab67686d86695f86a7cf186dbdc)
+        ;
+
+        
+    
+    
+            var marker_ef14eeab3fa23ac160bc6201812fa2f1 = L.marker(
+                [-14.8631785, -40.8541396],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9cabb9634402cd2a5c8beca09cdfd0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fafd8c289ab85d0c3b86d75b75528873 = $(`<div id="html_fafd8c289ab85d0c3b86d75b75528873" style="width: 100.0%; height: 100.0%;">Cliente: GO CARD CALCADOS LTDA<br>Endereço: ITABUNA 2569, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_9cabb9634402cd2a5c8beca09cdfd0c0.setContent(html_fafd8c289ab85d0c3b86d75b75528873);
+            
+        
+
+        marker_ef14eeab3fa23ac160bc6201812fa2f1.bindPopup(popup_9cabb9634402cd2a5c8beca09cdfd0c0)
+        ;
+
+        
+    
+    
+            var marker_5c09aec6979cc03c08416268635140ae = L.marker(
+                [-14.8567487, -40.8414804],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_9f0e83e4daf5955191ebb1b23ece3a5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c34a48f9dab4e1a03353bff1b9971230 = $(`<div id="html_c34a48f9dab4e1a03353bff1b9971230" style="width: 100.0%; height: 100.0%;">Cliente: GO CARD CALCADOS LTDA<br>Endereço: FRANCISCO SANTOS 65, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_9f0e83e4daf5955191ebb1b23ece3a5d.setContent(html_c34a48f9dab4e1a03353bff1b9971230);
+            
+        
+
+        marker_5c09aec6979cc03c08416268635140ae.bindPopup(popup_9f0e83e4daf5955191ebb1b23ece3a5d)
+        ;
+
+        
+    
+    
+            var marker_e57cc5f0f68adbcbeed27eb6aae70629 = L.marker(
+                [-12.8218022, -42.7280696],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_fabc2e483b51c16da5b208bf6414b813 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f18ecf75a3b6f2a21943d80265ad89c9 = $(`<div id="html_f18ecf75a3b6f2a21943d80265ad89c9" style="width: 100.0%; height: 100.0%;">Cliente: GO CARD CALCADOS LTDA<br>Endereço: MANOEL NOVAIS 474, BOM JESUS DA LAPA, BA</div>`)[0];
+                popup_fabc2e483b51c16da5b208bf6414b813.setContent(html_f18ecf75a3b6f2a21943d80265ad89c9);
+            
+        
+
+        marker_e57cc5f0f68adbcbeed27eb6aae70629.bindPopup(popup_fabc2e483b51c16da5b208bf6414b813)
+        ;
+
+        
+    
+    
+            var marker_77c4b31b3b7aba0c64bf51e9f302f659 = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_259730f0c91e6ad3f20272b391f06c47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdd9fd7e5d08a7bcc4d984e98de5eab8 = $(`<div id="html_bdd9fd7e5d08a7bcc4d984e98de5eab8" style="width: 100.0%; height: 100.0%;">Cliente: CECILIA COMERCIAL DE CALCADOS LTDA<br>Endereço: LAURO DE FREITAS 22, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_259730f0c91e6ad3f20272b391f06c47.setContent(html_bdd9fd7e5d08a7bcc4d984e98de5eab8);
+            
+        
+
+        marker_77c4b31b3b7aba0c64bf51e9f302f659.bindPopup(popup_259730f0c91e6ad3f20272b391f06c47)
+        ;
+
+        
+    
+    
+            var marker_e6160d3de374e481f1204595d692cb3a = L.marker(
+                [-14.8505194, -40.8419484],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_040f8185f922610d52957f9c48ec5636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf3e3b4622061b7a39773984b3ebd629 = $(`<div id="html_bf3e3b4622061b7a39773984b3ebd629" style="width: 100.0%; height: 100.0%;">Cliente: SILVA SHOES LTDA<br>Endereço: DA BANDEIRA 41, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_040f8185f922610d52957f9c48ec5636.setContent(html_bf3e3b4622061b7a39773984b3ebd629);
+            
+        
+
+        marker_e6160d3de374e481f1204595d692cb3a.bindPopup(popup_040f8185f922610d52957f9c48ec5636)
+        ;
+
+        
+    
+    
+            var marker_2de445a386edcb68494888116f01dd98 = L.marker(
+                [-14.8631785, -40.8541396],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_f98e270202b38f52a4e524e97f4f7fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6d64ebe195417581d9372491c8e231b = $(`<div id="html_a6d64ebe195417581d9372491c8e231b" style="width: 100.0%; height: 100.0%;">Cliente: SILVA SHOES LTDA<br>Endereço: ITABUNA 2607, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_f98e270202b38f52a4e524e97f4f7fc3.setContent(html_a6d64ebe195417581d9372491c8e231b);
+            
+        
+
+        marker_2de445a386edcb68494888116f01dd98.bindPopup(popup_f98e270202b38f52a4e524e97f4f7fc3)
+        ;
+
+        
+    
+    
+            var marker_cb7646ff22764dca0dcbe0ac63da9ad5 = L.marker(
+                [-14.792599, -39.0453843],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_fe35eb9ea802c89be579d37cfc61edb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc426c48a5a9a08d859b55659d1742ea = $(`<div id="html_fc426c48a5a9a08d859b55659d1742ea" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIAL DE CALCADOS UNIVERSO LTDA<br>Endereço: DOM PEDRO II 42, ILHEUS, BA</div>`)[0];
+                popup_fe35eb9ea802c89be579d37cfc61edb5.setContent(html_fc426c48a5a9a08d859b55659d1742ea);
+            
+        
+
+        marker_cb7646ff22764dca0dcbe0ac63da9ad5.bindPopup(popup_fe35eb9ea802c89be579d37cfc61edb5)
+        ;
+
+        
+    
+    
+            var marker_e7714658b716b9cce78839e7d8ba77eb = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_784862fd2173cf99e4477ececa3f7646 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99fddb92c7cd40bf4bd8b1f9751c3276 = $(`<div id="html_99fddb92c7cd40bf4bd8b1f9751c3276" style="width: 100.0%; height: 100.0%;">Cliente: SILVA SHOES LTDA<br>Endereço: LAURO DE FREITAS 41, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_784862fd2173cf99e4477ececa3f7646.setContent(html_99fddb92c7cd40bf4bd8b1f9751c3276);
+            
+        
+
+        marker_e7714658b716b9cce78839e7d8ba77eb.bindPopup(popup_784862fd2173cf99e4477ececa3f7646)
+        ;
+
+        
+    
+    
+            var marker_7a82daafef0c97e2d42f53937fcdd04a = L.marker(
+                [-13.8142592, -41.2978523],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_00bc94e0f4a32a5673088fff790a8dee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b0f5363a52a2962beaed6f1200aff27 = $(`<div id="html_8b0f5363a52a2962beaed6f1200aff27" style="width: 100.0%; height: 100.0%;">Cliente: GRACA MODAS LTDA<br>Endereço: FRANCISCO AVELINO ANJOS 254, ITUACU, BA</div>`)[0];
+                popup_00bc94e0f4a32a5673088fff790a8dee.setContent(html_8b0f5363a52a2962beaed6f1200aff27);
+            
+        
+
+        marker_7a82daafef0c97e2d42f53937fcdd04a.bindPopup(popup_00bc94e0f4a32a5673088fff790a8dee)
+        ;
+
+        
+    
+    
+            var marker_53c14c3064ae33322daaf4a889931cab = L.marker(
+                [-14.7974476, -39.2784539],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_332da3756e18d1ff0980daaf470bf7e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3008c36f937fea7275cdbab4dcfccd5 = $(`<div id="html_c3008c36f937fea7275cdbab4dcfccd5" style="width: 100.0%; height: 100.0%;">Cliente: T DE A PORTELLA<br>Endereço: CINQUENTENARIO 762, ITABUNA, BA</div>`)[0];
+                popup_332da3756e18d1ff0980daaf470bf7e5.setContent(html_c3008c36f937fea7275cdbab4dcfccd5);
+            
+        
+
+        marker_53c14c3064ae33322daaf4a889931cab.bindPopup(popup_332da3756e18d1ff0980daaf470bf7e5)
+        ;
+
+        
+    
+    
+            var marker_ce5e102be6fa5e4703a5b05d61f4c55a = L.marker(
+                [-14.7974476, -39.2784539],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7c92ee2e5a12196b2244a1b9388f7251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d1df8e94af07725edc5c8d844d86ea6 = $(`<div id="html_8d1df8e94af07725edc5c8d844d86ea6" style="width: 100.0%; height: 100.0%;">Cliente: T DE A PORTELLA<br>Endereço: CINQUENTENARIO 762, ITABUNA, BA</div>`)[0];
+                popup_7c92ee2e5a12196b2244a1b9388f7251.setContent(html_8d1df8e94af07725edc5c8d844d86ea6);
+            
+        
+
+        marker_ce5e102be6fa5e4703a5b05d61f4c55a.bindPopup(popup_7c92ee2e5a12196b2244a1b9388f7251)
+        ;
+
+        
+    
+    
+            var marker_984a090a976b909692b96824ad3e68ac = L.marker(
+                [-14.793173, -39.2750341],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_04e37c53159a003b4ab185215d021bc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4f5fd22ff13c46d316b837aecd039d7 = $(`<div id="html_f4f5fd22ff13c46d316b837aecd039d7" style="width: 100.0%; height: 100.0%;">Cliente: T DE A C PORTELLA<br>Endereço: RUI BARBOSA 196, ITABUNA, BA</div>`)[0];
+                popup_04e37c53159a003b4ab185215d021bc6.setContent(html_f4f5fd22ff13c46d316b837aecd039d7);
+            
+        
+
+        marker_984a090a976b909692b96824ad3e68ac.bindPopup(popup_04e37c53159a003b4ab185215d021bc6)
+        ;
+
+        
+    
+    
+            var marker_f3498059bc2badd5a50e54ea364ffed8 = L.marker(
+                [-14.793173, -39.2750341],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_626845fde8f94a4d5d41b7c705cc684f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1163e98ed4bb5295849cf758c6b926da = $(`<div id="html_1163e98ed4bb5295849cf758c6b926da" style="width: 100.0%; height: 100.0%;">Cliente: T DE A C PORTELLA<br>Endereço: RUI BARBOSA 196, ITABUNA, BA</div>`)[0];
+                popup_626845fde8f94a4d5d41b7c705cc684f.setContent(html_1163e98ed4bb5295849cf758c6b926da);
+            
+        
+
+        marker_f3498059bc2badd5a50e54ea364ffed8.bindPopup(popup_626845fde8f94a4d5d41b7c705cc684f)
+        ;
+
+        
+    
+    
+            var marker_29e1d9a429b02e780f785a664870f817 = L.marker(
+                [-12.7073174, -39.6974476],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_68187eb51d081349e882c6992b56e86d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41cc3acad977df774bec2e786098c454 = $(`<div id="html_41cc3acad977df774bec2e786098c454" style="width: 100.0%; height: 100.0%;">Cliente: D SOUZA ANDRADE CALCADOS LTDA<br>Endereço: SENADOR TEOTONIO VILELA S/N, ITATIM, BA</div>`)[0];
+                popup_68187eb51d081349e882c6992b56e86d.setContent(html_41cc3acad977df774bec2e786098c454);
+            
+        
+
+        marker_29e1d9a429b02e780f785a664870f817.bindPopup(popup_68187eb51d081349e882c6992b56e86d)
+        ;
+
+        
+    
+    
+            var marker_748019f0bb374faea19a1b28c0818e9e = L.marker(
+                [-16.4257989, -39.089074],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_e5a70ee05807d9b984be6230c19db560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9afe47da30009fb0dc706ad0611bfff4 = $(`<div id="html_9afe47da30009fb0dc706ad0611bfff4" style="width: 100.0%; height: 100.0%;">Cliente: COMERCIAL CARAVELAS CALCADOS LTDA<br>Endereço: GETULIO VARGAS 85, PORTO SEGURO, BA</div>`)[0];
+                popup_e5a70ee05807d9b984be6230c19db560.setContent(html_9afe47da30009fb0dc706ad0611bfff4);
+            
+        
+
+        marker_748019f0bb374faea19a1b28c0818e9e.bindPopup(popup_e5a70ee05807d9b984be6230c19db560)
+        ;
+
+        
+    
+    
+            var marker_470ee0c34ce48a012d0069cd066332e8 = L.marker(
+                [-14.6134669, -41.1376308],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_2a929012cc9d73e01f98c29f10cfa41a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2638fb8057443ca4960c05bc55906a42 = $(`<div id="html_2638fb8057443ca4960c05bc55906a42" style="width: 100.0%; height: 100.0%;">Cliente: RLM CALCADOS LTDA<br>Endereço: LANDULFO ALVES 95, ANAGE, BA</div>`)[0];
+                popup_2a929012cc9d73e01f98c29f10cfa41a.setContent(html_2638fb8057443ca4960c05bc55906a42);
+            
+        
+
+        marker_470ee0c34ce48a012d0069cd066332e8.bindPopup(popup_2a929012cc9d73e01f98c29f10cfa41a)
+        ;
+
+        
+    
+    
+            var marker_ec68dd1f544c51d21344415b68e4ce4b = L.marker(
+                [-14.8001043, -39.0333268],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_39156fa4675eda42c051f94cd76ab213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e8ab6a4a82b8f4f6e3f4037dce7d171 = $(`<div id="html_0e8ab6a4a82b8f4f6e3f4037dce7d171" style="width: 100.0%; height: 100.0%;">Cliente: TOP CALCADOS, CONFECCOES E ACESSORIOS LTDA<br>Endereço: MARQUES DE PARANAGUA 181, ILHEUS, BA</div>`)[0];
+                popup_39156fa4675eda42c051f94cd76ab213.setContent(html_0e8ab6a4a82b8f4f6e3f4037dce7d171);
+            
+        
+
+        marker_ec68dd1f544c51d21344415b68e4ce4b.bindPopup(popup_39156fa4675eda42c051f94cd76ab213)
+        ;
+
+        
+    
+    
+            var marker_2aa12bea814d49b700b1ea27a1d059a6 = L.marker(
+                [-14.8522195, -40.8408327],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_64aba980192699b075082d6dfa5ab0b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80ed4ea18efcd47dbedde0666ff6ab6e = $(`<div id="html_80ed4ea18efcd47dbedde0666ff6ab6e" style="width: 100.0%; height: 100.0%;">Cliente: ESTER GONCALVES ASSUNCAO<br>Endereço: ADRIANO BERNARDES 08, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_64aba980192699b075082d6dfa5ab0b5.setContent(html_80ed4ea18efcd47dbedde0666ff6ab6e);
+            
+        
+
+        marker_2aa12bea814d49b700b1ea27a1d059a6.bindPopup(popup_64aba980192699b075082d6dfa5ab0b5)
+        ;
+
+        
+    
+    
+            var marker_bc6a7ead18ce8957193c68a8b754aeca = L.marker(
+                [-14.8543933, -40.8409835],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_46373900347c614b5ff1c41c8d173523 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_182ee0cf248a50e87bdd523e84017f92 = $(`<div id="html_182ee0cf248a50e87bdd523e84017f92" style="width: 100.0%; height: 100.0%;">Cliente: CALCART COMERCIO DE CALCADOS LTDA<br>Endereço: LAURO DE FREITAS 25B, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_46373900347c614b5ff1c41c8d173523.setContent(html_182ee0cf248a50e87bdd523e84017f92);
+            
+        
+
+        marker_bc6a7ead18ce8957193c68a8b754aeca.bindPopup(popup_46373900347c614b5ff1c41c8d173523)
+        ;
+
+        
+    
+    
+            var marker_09bf826b6a9744160ab580e79cb8206a = L.marker(
+                [-15.4198516, -39.4964236],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_24820e5b717c9daaaddf2ff368a3b603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2751904358575a650adf3f00d097b5e9 = $(`<div id="html_2751904358575a650adf3f00d097b5e9" style="width: 100.0%; height: 100.0%;">Cliente: T DE A C PORTELLA<br>Endereço: DR JOAO VARGENS 200, CAMACAN, BA</div>`)[0];
+                popup_24820e5b717c9daaaddf2ff368a3b603.setContent(html_2751904358575a650adf3f00d097b5e9);
+            
+        
+
+        marker_09bf826b6a9744160ab580e79cb8206a.bindPopup(popup_24820e5b717c9daaaddf2ff368a3b603)
+        ;
+
+        
+    
+    
+            var marker_48f4537df72fdc77884c9a0281e11bd7 = L.marker(
+                [-14.8516886, -40.8391289],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_96bd0c9f63f56aa2dedcdfb0fa76ceb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f691f34d6a3f429035016b3585a5489b = $(`<div id="html_f691f34d6a3f429035016b3585a5489b" style="width: 100.0%; height: 100.0%;">Cliente: NIKOLAS CALCADOS E CONFECCOES LTDA<br>Endereço: MAXIMILIANO FERNANDES 20, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_96bd0c9f63f56aa2dedcdfb0fa76ceb9.setContent(html_f691f34d6a3f429035016b3585a5489b);
+            
+        
+
+        marker_48f4537df72fdc77884c9a0281e11bd7.bindPopup(popup_96bd0c9f63f56aa2dedcdfb0fa76ceb9)
+        ;
+
+        
+    
+    
+            var marker_dcec1892018a3204af03e903209c5de4 = L.marker(
+                [-14.8516886, -40.8391289],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_b31ed310176d6b3a4a8ce0af512afe13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0074a5e9229546f6f02d5e5fc4f74eb2 = $(`<div id="html_0074a5e9229546f6f02d5e5fc4f74eb2" style="width: 100.0%; height: 100.0%;">Cliente: NIKOLAS CALCADOS E CONFECCOES LTDA<br>Endereço: MAXIMILIANO FERNANDES 20, VITORIA DA CONQUISTA, BA</div>`)[0];
+                popup_b31ed310176d6b3a4a8ce0af512afe13.setContent(html_0074a5e9229546f6f02d5e5fc4f74eb2);
+            
+        
+
+        marker_dcec1892018a3204af03e903209c5de4.bindPopup(popup_b31ed310176d6b3a4a8ce0af512afe13)
+        ;
+
+        
+    
+    
+            var marker_ce6241ee528e6c66c1c6e03db3babf6b = L.marker(
+                [-14.7972133, -39.0333473],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_b04ffd63bdd780b1fc78b6ebaf1a029c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_260fbc55aa2ef7038190e792f9cb2787 = $(`<div id="html_260fbc55aa2ef7038190e792f9cb2787" style="width: 100.0%; height: 100.0%;">Cliente: VIVA CALCADOS LTDA<br>Endereço: CONSELHEIRO DANTAS 35, ILHEUS, BA</div>`)[0];
+                popup_b04ffd63bdd780b1fc78b6ebaf1a029c.setContent(html_260fbc55aa2ef7038190e792f9cb2787);
+            
+        
+
+        marker_ce6241ee528e6c66c1c6e03db3babf6b.bindPopup(popup_b04ffd63bdd780b1fc78b6ebaf1a029c)
+        ;
+
+        
+    
+    
+            var marker_cf6ac86a0469966560f0e638e6a8fce3 = L.marker(
+                [-14.3139322, -39.3246811],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7b8d928cf0fa1f232d4447d2d18fcab5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0829ae9eb12f2e1091df1c4cc7f39f41 = $(`<div id="html_0829ae9eb12f2e1091df1c4cc7f39f41" style="width: 100.0%; height: 100.0%;">Cliente: CANOA MODAS LTDA<br>Endereço: 27 DE JULHO 55, UBAITABA, BA</div>`)[0];
+                popup_7b8d928cf0fa1f232d4447d2d18fcab5.setContent(html_0829ae9eb12f2e1091df1c4cc7f39f41);
+            
+        
+
+        marker_cf6ac86a0469966560f0e638e6a8fce3.bindPopup(popup_7b8d928cf0fa1f232d4447d2d18fcab5)
+        ;
+
+        
+    
+    
+            var marker_dd30c32491af21fb14126bf7cd5022c8 = L.marker(
+                [-13.6262153, -41.3254463],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_673c2c8bf8b8f00a31cd528f13a310a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9136ae64b34b6ba2f606949a403da0f5 = $(`<div id="html_9136ae64b34b6ba2f606949a403da0f5" style="width: 100.0%; height: 100.0%;">Cliente: D M DANTAS LTDA<br>Endereço: PEDRO RODRIGUES DE SOUZA 142, BARRA DA ESTIVA, BA</div>`)[0];
+                popup_673c2c8bf8b8f00a31cd528f13a310a2.setContent(html_9136ae64b34b6ba2f606949a403da0f5);
+            
+        
+
+        marker_dd30c32491af21fb14126bf7cd5022c8.bindPopup(popup_673c2c8bf8b8f00a31cd528f13a310a2)
+        ;
+
+        
+    
+    
+            var marker_ef417c1bc9e9fdee40862703798d60f9 = L.marker(
+                [-16.4445918, -39.0620514],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_5f44a61dbb8c164c4babda67bf6335d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b63636e3a9f8174e8dd54c344855b0f6 = $(`<div id="html_b63636e3a9f8174e8dd54c344855b0f6" style="width: 100.0%; height: 100.0%;">Cliente: PRATIQUE ESPORTES ARTIGOS ESPORTIVOS LTDA<br>Endereço: 22 DE ABRIL 249, PORTO SEGURO, BA</div>`)[0];
+                popup_5f44a61dbb8c164c4babda67bf6335d2.setContent(html_b63636e3a9f8174e8dd54c344855b0f6);
+            
+        
+
+        marker_ef417c1bc9e9fdee40862703798d60f9.bindPopup(popup_5f44a61dbb8c164c4babda67bf6335d2)
+        ;
+
+        
+    
+    
+            var marker_ac3de3e9be3d4220406b310015905c67 = L.marker(
+                [-14.0674191, -39.6406081],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_eef35e74a107a08107bd5512fe8d131d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6671cc1008acba0a4255ff44ec76ccf = $(`<div id="html_d6671cc1008acba0a4255ff44ec76ccf" style="width: 100.0%; height: 100.0%;">Cliente: T DE A C PORTELLA<br>Endereço: 2 DE JULHO 01, IBIRATAIA, BA</div>`)[0];
+                popup_eef35e74a107a08107bd5512fe8d131d.setContent(html_d6671cc1008acba0a4255ff44ec76ccf);
+            
+        
+
+        marker_ac3de3e9be3d4220406b310015905c67.bindPopup(popup_eef35e74a107a08107bd5512fe8d131d)
+        ;
+
+        
+    
+    
+            var marker_44de3e3b032f0aa1fd0d8d8fc45d3116 = L.marker(
+                [-14.3717453, -40.5076615],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_3fbed7aab78b22ac27eed3981b8778bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_325394bc5cce1599161a187686c2cad7 = $(`<div id="html_325394bc5cce1599161a187686c2cad7" style="width: 100.0%; height: 100.0%;">Cliente: MAURO CALCADOS LTDA<br>Endereço: DEOCLECIANO TEIXEIRA LOPES 55, BOM JESUS DA SERRA, BA</div>`)[0];
+                popup_3fbed7aab78b22ac27eed3981b8778bb.setContent(html_325394bc5cce1599161a187686c2cad7);
+            
+        
+
+        marker_44de3e3b032f0aa1fd0d8d8fc45d3116.bindPopup(popup_3fbed7aab78b22ac27eed3981b8778bb)
+        ;
+
+        
+    
+    
+            var marker_bba5167d28f7b77e553ed01274628f50 = L.marker(
+                [-17.1662932, -40.3302882],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_0f1e27035ac519e645bedfd0e4d4b780 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ded8062e748788c5b01f02c2b1eb49f = $(`<div id="html_1ded8062e748788c5b01f02c2b1eb49f" style="width: 100.0%; height: 100.0%;">Cliente: 53.116.058 DELGISIA CRUZ BRAGA<br>Endereço: OTAVIO MANGABEIRA 128, ITANHEM, BA</div>`)[0];
+                popup_0f1e27035ac519e645bedfd0e4d4b780.setContent(html_1ded8062e748788c5b01f02c2b1eb49f);
+            
+        
+
+        marker_bba5167d28f7b77e553ed01274628f50.bindPopup(popup_0f1e27035ac519e645bedfd0e4d4b780)
+        ;
+
+        
+    
+    
+            var marker_1f1f56aa93e34d5820ffbedad1e39fea = L.marker(
+                [-17.8528583, -40.3359547],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_7490c8b8e07cb040af1e8d4106d042a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9be2332a8c1464b441b6a5dab8238fb = $(`<div id="html_c9be2332a8c1464b441b6a5dab8238fb" style="width: 100.0%; height: 100.0%;">Cliente: M. ALVES CALCADOS LTDA<br>Endereço: SANTOS DUMONT 134, NANUQUE, MG</div>`)[0];
+                popup_7490c8b8e07cb040af1e8d4106d042a8.setContent(html_c9be2332a8c1464b441b6a5dab8238fb);
+            
+        
+
+        marker_1f1f56aa93e34d5820ffbedad1e39fea.bindPopup(popup_7490c8b8e07cb040af1e8d4106d042a8)
+        ;
+
+        
+    
+    
+            var marker_68e723de701ef62e4ca0330452349d5d = L.marker(
+                [-14.6407979, -39.5496765],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_8bd036ea0d6b7e8fb6660e49a4f1bf79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32775e5d5e769febe1b0e07cec89be4c = $(`<div id="html_32775e5d5e769febe1b0e07cec89be4c" style="width: 100.0%; height: 100.0%;">Cliente: AMR COMERCIO DE CALCADOS LTDA<br>Endereço: RUY BARBOSA 30, COARACI, BA</div>`)[0];
+                popup_8bd036ea0d6b7e8fb6660e49a4f1bf79.setContent(html_32775e5d5e769febe1b0e07cec89be4c);
+            
+        
+
+        marker_68e723de701ef62e4ca0330452349d5d.bindPopup(popup_8bd036ea0d6b7e8fb6660e49a4f1bf79)
+        ;
+
+        
+    
+    
+            var marker_cb73d1432e5438af8e91416d0acbd5d3 = L.marker(
+                [-13.2687324, -39.6614499],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_1beca75082d1c5d8d596065c7df3cb4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a712b6fff17e2e37353218afb9c008b = $(`<div id="html_1a712b6fff17e2e37353218afb9c008b" style="width: 100.0%; height: 100.0%;">Cliente: 49.551.253 FLAVIO JOSE BRITO DE SOUZA<br>Endereço: FERNANDES BARRETO 79, UBAIRA, BA</div>`)[0];
+                popup_1beca75082d1c5d8d596065c7df3cb4a.setContent(html_1a712b6fff17e2e37353218afb9c008b);
+            
+        
+
+        marker_cb73d1432e5438af8e91416d0acbd5d3.bindPopup(popup_1beca75082d1c5d8d596065c7df3cb4a)
+        ;
+
+        
+    
+    
+            var marker_32912ce600aeea4012aa4f27537d77fe = L.marker(
+                [-14.0648355, -42.486173],
+                {}
+            ).addTo(map_2175379e745be408097666445cf68449);
+        
+    
+        var popup_436a9e7623f4b7c2ff04a657c42c9a39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff183a945ae827d2ffd31c7995b88c64 = $(`<div id="html_ff183a945ae827d2ffd31c7995b88c64" style="width: 100.0%; height: 100.0%;">Cliente: TJZ CALCADOS LTDA<br>Endereço: PREFEITO DACIO OLIVEIRA 110B, CAETITE, BA</div>`)[0];
+                popup_436a9e7623f4b7c2ff04a657c42c9a39.setContent(html_ff183a945ae827d2ffd31c7995b88c64);
+            
+        
+
+        marker_32912ce600aeea4012aa4f27537d77fe.bindPopup(popup_436a9e7623f4b7c2ff04a657c42c9a39)
+        ;
+
+        
+    
+</script>
+</html>

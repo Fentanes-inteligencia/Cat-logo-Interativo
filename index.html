@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo Interativo</title>
+</head>
+<body>
+    <h1>Catálogo de Produtos</h1>
+    <ul>
+        {% for produto in produtos %}
+        <li>
+            <img src="/static/imagens_produtos/{{ produto.imagem }}" alt="{{ produto.produto }}" style="width:150px;"><br>
+            <strong>{{ produto.produto }} - Código: {{ produto.codigo }}</strong><br>
+            <a href="/adicionar/{{ produto.codigo }}">Adicionar ao Carrinho</a><br>
+
+            <!-- Exibe as cores e suas respectivas numerações -->
+            {% for cor in produto.cores %}
+            <h3>Grade de Tamanhos - {{ cor.abrev }} ({{ cor.nome }})</h3>
+            <table border="1" style="border-collapse: collapse;">
+                <tr>
+                    {% for tamanho, qtd in cor.numeracao.items() %}
+                    <th>{{ tamanho }}</th>
+                    {% endfor %}
+                </tr>
+                <tr>
+                    {% for tamanho, qtd in cor.numeracao.items() %}
+                    <td>{{ qtd }}</td>
+                    {% endfor %}
+                </tr>
+            </table>
+            {% endfor %}
+        </li>
+        <br><br>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
